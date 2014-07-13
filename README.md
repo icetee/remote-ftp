@@ -1,5 +1,10 @@
-# remote-ftp package
+# remote-ftp
 
-A short description of your package.
+*In-development plugin, use at your own risk!*
 
-![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+## How to
+* Download & install into your packages folder (~/.atom/packages)
+* Activate plugin through Atom's Settings panel
+* Create configuration file, Packages > Remote-Ftp > Create config file (remote-ftp:write-config)
+* Edit configuration
+* Open Remote View panel, Packages > Remote-Ftp > Toggle (remote-ftp:toggle)
