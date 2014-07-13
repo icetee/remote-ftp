@@ -1,0 +1,28 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.ftp-view.full-menu':
+    'Add File': 'remote-ftp:add-file'
+    'Add Folder': 'remote-ftp:add-folder'
+    'Refresh': 'remote-ftp:refresh'
+    'Rename': 'remote-ftp:move'
+    'Delete': 'remote-ftp:delete'
+    'Open': 'remote-ftp:open'
+
+  '.pane .item-views':
+    'Refresh from remote FTP': 'remote-ftp:open-active'
+
+  '.pane .tab.active':
+    'Refresh from remote FTP': 'remote-ftp:open-active'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Remote-FTP'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'remote-ftp:toggle' },
+        { 'label': 'Create config file', 'command': 'remote-ftp:write-config' }
+      ]
+    ]
+  }
+]

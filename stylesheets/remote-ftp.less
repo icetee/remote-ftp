@@ -1,0 +1,117 @@
+// The ui-variables file is provided by base themes provided by Atom.
+//
+// See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
+// for a full listing of what's available.
+@import "ui-variables";
+
+.ftp-view-resizer {
+
+	.ftp-view-scroller {
+		position: absolute;
+		top: 0;
+		bottom: 26px;
+		left: 0;
+		right: 0;
+	}
+
+	.ftp-view-offline {
+		position: absolute;
+		top: 0;
+		bottom: 26px;
+		left: 0;
+		right: 0;
+		opacity: 0.33;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+
+	.ftp-view-status {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		.flexbox-repaint-hack {
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+		}
+	}
+
+}
+
+// from tree-view
+.ftp-view-resizer {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	cursor: default;
+	-webkit-user-select: none;
+	min-width: 100px;
+	width: 200px;
+	z-index: 2;
+
+	.ftp-view-resize-handle {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		width: 10px;
+		cursor: col-resize;
+		z-index: 3;
+	}
+
+	&[data-show-on-right-side='true'] {
+		.ftp-view-resize-handle {
+			left: -5px;
+		}
+	}
+
+	&[data-show-on-right-side='false'] {
+		.ftp-view-resize-handle {
+			right: -5px;
+		}
+	}
+}
+
+.panel-left {
+	.ftp-view-resize-handle {
+		right: 0;
+	}
+}
+
+.panel-right {
+	.ftp-view-resize-handle {
+		left: 0;
+	}
+}
+
+.ftp-view-scroller {
+	height: 100%;
+	width: 100%;
+	overflow: auto;
+}
+
+.ftp-view {
+	min-width: -webkit-min-content;
+	min-height: 100%;
+	padding-left: @component-icon-padding;
+	padding-right: @component-padding;
+	position: relative;
+
+	// This fixes #110, see that issue for more details
+	.entry:before {
+		content: '';
+		position: absolute;
+	}
+}
+
+.platform-win32 {
+	.ftp-view-resizer {
+		.ftp-view-resize-handle {
+			cursor: ew-resize;
+		}
+	}
+}
