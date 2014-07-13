@@ -14,7 +14,7 @@
       "remote-ftp:open",
       "remote-ftp:open-active"
   ],
-  "repository": "https://github.com/atom/remote-ftp",
+  "repository": "https://github.com/mgrenier/atom-remote-ftp",
   "license": "MIT",
   "engines": {
     "atom": "*"
