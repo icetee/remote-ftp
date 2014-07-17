@@ -3,17 +3,6 @@
   "main": "./lib/remote-ftp",
   "version": "0.1.0",
   "description": "Enable browsing remote FTP just like the built-in Tree View. Require a project",
-  "activationEvents": [
-      "remote-ftp:write-config",
-      "remote-ftp:toggle",
-      "remote-ftp:add-file",
-      "remote-ftp:add-folder",
-      "remote-ftp:refresh",
-      "remote-ftp:move",
-      "remote-ftp:delete",
-      "remote-ftp:open",
-      "remote-ftp:open-active"
-  ],
   "repository": "https://github.com/mgrenier/atom-remote-ftp",
   "license": "MIT",
   "engines": {
@@ -21,8 +10,9 @@
   },
   "dependencies": {
       "ftp": "*",
+      "fs-plus": "*",
       "mkdirp": "*",
-      "theorist": "1.x",
-      "underscore": "1.x"
+      "chokidar": "*",
+      "theorist": "*"
   }
 }

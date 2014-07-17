@@ -1,0 +1,30 @@
+Options -Indexes +FollowSymLinks
+
+# Turn off Quote
+#php_value magic_quotes_gpc off
+
+# Prevent access to config, cache, log files
+<Files ~ "\.ini$">
+	Order allow,deny
+	Deny from all
+</Files>
+<Files ~ "\.cache$">
+	Order allow,deny
+	Deny from all
+</Files>
+<Files ~ "\.log$">
+	Order allow,deny
+	Deny from all
+</Files>
+
+# Rewrite rules
+RewriteEngine on
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} ^(www\.|)fgmat\.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L]
+
+#RewriteBase /
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) index.php/$1
