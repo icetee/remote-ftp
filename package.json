@@ -6,7 +6,14 @@
   "activationEvents": [
       "remote-ftp:toggle",
       "remote-ftp:connect",
-      "remote-ftp:disconnect"
+      "remote-ftp:disconnect",
+      "remote-ftp:upload-selected",
+      "remote-ftp:download-selected",
+      "remote-ftp:add-file",
+      "remote-ftp:add-folder",
+      "remote-ftp:refresh-selected",
+      "remote-ftp:move-selected",
+      "remote-ftp:delete-selected"
   ],
   "repository": "https://github.com/mgrenier/remote-ftp",
   "license": "MIT",
