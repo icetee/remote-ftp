@@ -3,3 +3,75 @@
 // See https://github.com/atom/atom-dark-ui/blob/master/stylesheets/ui-variables.less
 // for a full listing of what's available.
 @import "ui-variables";
+
+.remote-ftp-view {
+	position: relative;
+	width: 200px;
+	height: 100%;
+	overflow: hidden;
+
+	> .resize-handle {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: -5px;
+		z-index: 10;
+		display: block;
+		width: 10px;
+		cursor: e-resize;
+	}
+
+	> .scroller {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 26px;
+		display: block;
+		overflow: auto;
+
+		> .list-tree {
+			height: 100%;
+			width: auto;
+			min-width: -webkit-min-content;
+			padding-left: 5px;
+			padding-right: 10px;
+		}
+	}
+
+	> .queue {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		display: block;
+		height: 26px;
+
+		> .resize-handle {
+			position: absolute;
+			top: -5px;
+			left: 0;
+			right: 0;
+			z-index: 10;
+			display: block;
+			height: 10px;
+			cursor: n-resize;
+		}
+	}
+
+	> .offline {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 3;
+		opacity: 0.33;
+		display: flex;
+		-webkit-box-align: center;
+		align-items: center;
+		text-align: center;
+		justify-content: center;
+	}
+
+}
