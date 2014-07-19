@@ -24,7 +24,6 @@
       "ftp": "*",
       "fs-plus": "*",
       "mkdirp": "*",
-      "chokidar": "*",
       "theorist": "*"
   }
 }
