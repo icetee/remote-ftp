@@ -4,7 +4,7 @@ FTP client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp)
 
 ## Client details
 
-```atom.project.remoteftp``` contains wraper method for the [node-ftp](https://github.com/mscdex/node-ftp) connection.
+```atom.project.remoteftp``` contains wraper method for the [node-ftp](https://github.com/mscdex/node-ftp) connection. Detail after screenshots.
 
 ## Screenshots
 
