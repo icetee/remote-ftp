@@ -15,10 +15,6 @@ FTP client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp)
 ![Screenshot 04](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-04.png)
 ![Screenshot 05](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-05.png)
 
-## API for other package creator
-
-Other package can access the FTP Client with ```atom.project.remoteftp```. Complete API below screenshots.
-
 ### Properties
 * **info** - (_object_) - Object containing the .ftpconfig's data
 * **ftp** - (_FTP_) - [node-ftp](https://github.com/mscdex/node-ftp) object for _raw_ access to the connection
