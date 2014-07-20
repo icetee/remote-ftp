@@ -1,7 +1,7 @@
 {
   "name": "remote-ftp",
   "main": "./lib/remote-ftp",
-  "version": "0.2.0",
+  "version": "0.1.1",
   "description": "Enable browsing remote FTP just like the built-in Tree View. Require a project",
   "activationEvents": [
       "remote-ftp:create-config",
@@ -19,7 +19,7 @@
   "repository": "https://github.com/mgrenier/remote-ftp",
   "license": "MIT",
   "engines": {
-    "atom": "*"
+    "atom": ">=0.50.0"
   },
   "dependencies": {
       "ftp": "*",
