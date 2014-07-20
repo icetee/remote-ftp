@@ -2,7 +2,7 @@
 
 FTP client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp)
 
-## Client details
+## API access
 
 Detail after screenshots.
 
