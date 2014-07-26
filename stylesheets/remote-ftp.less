@@ -47,6 +47,57 @@
 		display: block;
 		height: 26px;
 
+		> .progress {
+			display: none;
+			width: auto;
+			height: auto;
+			border-radius: 0;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+			list-style: none;
+			margin: 0 0 2px 0;
+			padding: 0;
+
+			> li {
+				display: block;
+				margin: 0;
+				padding: 4px 8px;
+				font-size: 11px;
+				line-height: 18px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+
+				progress {
+					width: 50px;
+				}
+			}
+		}
+
+		> .list {
+			display: block;
+			list-style: none;
+			margin: 0;
+			padding: 0;
+
+			> li {
+				display: block;
+				margin: 0;
+				padding: 2px 8px;
+				line-height: 10px;
+				font-size: 10px;
+				white-space: nowrap;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+			> li:first-of-type {
+				padding-top: 4px;
+				padding-bottom: 4px;
+				font-size: 11px;
+				line-height: 18px;
+			}
+		}
+
 		> .resize-handle {
 			position: absolute;
 			top: -5px;

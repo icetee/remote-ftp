@@ -1,3 +1,6 @@
+## 0.2.0 - Feature complete
+* Added queue and debug panel
+
 ## 0.1.1 - Feature complete
 * Every feature added
 
