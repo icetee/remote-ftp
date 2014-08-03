@@ -8,12 +8,12 @@ Detail after screenshots.
 
 ## Screenshots
 
-![Screenshot 00](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-00.png)
-![Screenshot 01](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-01.png)
-![Screenshot 02](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-02.png)
-![Screenshot 03](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-03.png)
-![Screenshot 04](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-04.png)
-![Screenshot 05](https://raw.githubusercontent.com/mgrenier/remote-ftp/dev/images/remote-ftp-05.png)
+![Screenshot 00](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-00.png)
+![Screenshot 01](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-01.png)
+![Screenshot 02](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-02.png)
+![Screenshot 03](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-03.png)
+![Screenshot 04](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-04.png)
+![Screenshot 05](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/images/remote-ftp-05.png)
 
 ## API for other package creator
 
