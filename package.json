@@ -22,7 +22,10 @@
     "atom": ">=0.50.0"
   },
   "dependencies": {
+    "loophole": "*",
+    "cson": "*",
     "ftp": "*",
+    "sftp": "*",
     "fs-plus": "*",
     "mkdirp": "*",
     "theorist": "*"
