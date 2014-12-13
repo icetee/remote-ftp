@@ -19,13 +19,12 @@
   "repository": "https://github.com/mgrenier/remote-ftp",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.50.0"
+    "atom": "=0.158.0"
   },
   "dependencies": {
     "loophole": "*",
     "cson": "*",
     "ftp": "*",
-    "sftp": "*",
     "fs-plus": "*",
     "mkdirp": "*",
     "theorist": "*"
