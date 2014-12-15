@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.tree-view.full-menu':
+    'Upload': 'remote-ftp:upload-selected'
+  '.tree-view.multi-select':
+    'Upload': 'remote-ftp:upload-selected'
+  '.remote-ftp-view .list-tree.full-menu':
+    'Add File': 'remote-ftp:add-file'
+    'Add Folder': 'remote-ftp:add-folder'
+    'Refresh': 'remote-ftp:refresh-selected'
+    'Rename': 'remote-ftp:move-selected'
+    'Delete': 'remote-ftp:delete-selected'
+    'Download': 'remote-ftp:download-selected'
+  '.remote-ftp-view .list-tree.multi-select':
+    'Download': 'remote-ftp:download-selected'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Remote-FTP'
+      'submenu': [
+        { 'label': 'Create config file', 'command': 'remote-ftp:create-config' },
+        { 'label': 'Toggle', 'command': 'remote-ftp:toggle' },
+        { 'label': 'Connect', 'command': 'remote-ftp:connect' },
+        { 'label': 'Disconnect', 'command': 'remote-ftp:disonnect' }
+      ]
+    ]
+  }
+]
