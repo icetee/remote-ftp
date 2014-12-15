@@ -58,17 +58,33 @@
 			padding: 0;
 
 			> li {
-				display: block;
+				display: flex;
 				margin: 0;
 				padding: 4px 8px;
 				font-size: 11px;
 				line-height: 18px;
-				white-space: nowrap;
-				overflow: hidden;
-				text-overflow: ellipsis;
+
+				flex-wrap: nowrap;
+				flex-direction: row;
+				justify-content: flex-start;
 
 				progress {
+					flex: none;
 					width: 50px;
+				}
+
+				.name {
+					width: 100%;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					text-align: left;
+				}
+
+				.eta {
+					flex: none;
+					white-space: nowrap;
+					text-align: right;
 				}
 			}
 		}
