@@ -1,10 +1,6 @@
 # remote-ftp
 
-FTP client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp)
-
-## API access
-
-Detail after screenshots.
+FTP/FTPS client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp)
 
 ## API for other package creator
 
@@ -12,9 +8,9 @@ Other package can access the FTP Client with ```atom.project.remoteftp```.
 
 ### Properties
 * **info** - (_object_) - Object containing the .ftpconfig's data
-* **ftp** - (_FTP_) - [node-ftp](https://github.com/mscdex/node-ftp) object for _raw_ access to the connection
+* **connector** - (_Connector_) - object for _raw_ access to the connector ([node-ftp](https://github.com/mscdex/node-ftp))
 
-### Events [node-ftp](https://github.com/mscdex/node-ftp#events)
+### Events
 * **connected**() - Connected to the server
 * **closed**() - Connection closed
 * **ended**() - Connection has ended
@@ -35,8 +31,3 @@ Other package can access the FTP Client with ```atom.project.remoteftp```.
 * **mkfile**(_string_ remote, _function_ callback) - (_Client_) - Create empty file at remote
 * **rename**(_string_ source, _string_ destination, _function_ callback) - (_Client_) - Rename remote to destination
 * **delete**(_string_ remote, _bool_ recursive, _function_ callback) - (_Client_) - Delete remote location
-
-### Helpers
-
-* **toLocal**(_string_ remote) - (_string_) - Convert remote absolute path to local absolute path
-* **toRemote**(_string_ local) - (_string_) - Convert local absolute path to remote absolute path
