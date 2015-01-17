@@ -1,7 +1,7 @@
 {
   "name": "Remote-FTP",
   "main": "./lib/remote-ftp",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Enable browsing remote FTP just like the built-in Tree View. Require a project",
   "activationEvents": [],
   "repository": "https://github.com/mgrenier/remote-ftp",
