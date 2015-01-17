@@ -1,2 +1,2 @@
-'.workspace':
+'atom-workspace':
   'ctrl-alt-o': 'remote-ftp:toggle'
