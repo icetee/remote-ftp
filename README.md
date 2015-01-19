@@ -4,6 +4,14 @@ FTP/FTPS/SFTP client for Atom.io using [node-ftp](https://github.com/mscdex/node
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
+## Getting started
+
+1. **Open** an existing **project** or create a new one (File -> Open folder...)
+1. **Open** remote-ftp **sidebar** (Packages -> Remote-FTP -> Toggle)
+1. **Create a configuration file** for your project (Packages -> Remote-FTP -> Create (s)FTP config file)
+1. Once connected you should be seeing the content of the remote connection
+1. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
+
 ## API for other package creator
 
 Other package can access the FTP Client with ```atom.project.remoteftp```.
