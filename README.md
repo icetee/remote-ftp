@@ -1,6 +1,6 @@
-# remote-ftp
+# Remote-FTP
 
-FTP/FTPS/SFTP client for Atom.io using [node-ftp](https://github.com/mscdex/node-ftp) and [ssh2](https://github.com/mscdex/ssh2)
+FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
@@ -12,32 +12,11 @@ FTP/FTPS/SFTP client for Atom.io using [node-ftp](https://github.com/mscdex/node
 1. Once connected you should be seeing the content of the remote connection
 1. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
 
-## API for other package creator
-
-Other package can access the FTP Client with ```atom.project.remoteftp```.
-
-### Properties
-* **info** - (_object_) - Object containing the .ftpconfig's data
-* **connector** - (_Connector_) - object for _raw_ access to the connector
-
-### Events
-* **connected**() - Connected to the server
-* **closed**() - Connection closed
-* **ended**() - Connection has ended
-* **error**(_string_ error) - Connection had an error
-
-### Methods
-* **readConfig**(_function_ callback) - (void) - Read .ftpconfig file
-* **connect**(_bool_ reconnect) - (_Client_) - Initiate connection
-* **disconnect**() - (_Client_) - Close connection
-* **isConnected**() - (_bool_) - Check if connected
-* **onceConnected**(_function_ callback) - (_bool_) - Try to reconnect and execute callback
-* **abort**() - (_Client_) - Abort single operation
-* **abortAll**() - (_Client_) - Abort all pending operation
-* **list**(_string_ remote, _bool_ recursive, _function_ callback) - (_Client_) - Retrieve a list of resource at location
-* **download**(_string_ remote, _bool_ recursive, _function_ callback) - (_Client_) - Download remote path to local
-* **upload**(_string_ remote, _function_ callback) - (_Client_) - Upload local path to remote
-* **mkdir**(_string_ remote, _bool_ recursive, _function_ callback) - (_Client_) - Create a folder at remote
-* **mkfile**(_string_ remote, _function_ callback) - (_Client_) - Create empty file at remote
-* **rename**(_string_ source, _string_ destination, _function_ callback) - (_Client_) - Rename remote to destination
-* **delete**(_string_ remote, _bool_ recursive, _function_ callback) - (_Client_) - Delete remote location
+## I'd like to support this project
+Help me bring this project to the moon! Atom's rocket needs to get somewhere, right?
+- **Bug hunting!** [Report](https://github.com/mgrenier/remote-ftp/issues) them!
+- **Feature request?** [Please let me know](https://github.com/mgrenier/remote-ftp/issues) by filling an issue!
+- **Share the love!**
+ - Star this project on [Atom](https://atom.io/packages/remote-ftp/star), [Github](https://github.com/mgrenier/remote-ftp/star)
+ - Speak out on the [forum](https://discuss.atom.io/)
+ - [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PZ3HU7CCJQ6BL) a little something !
