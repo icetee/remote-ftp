@@ -13,7 +13,6 @@
     "ftp": "*",
     "ssh2": "*",
     "fs-plus": "*",
-    "mkdirp": "*",
     "theorist": "*"
   }
 }

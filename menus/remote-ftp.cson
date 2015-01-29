@@ -2,8 +2,10 @@
 'context-menu':
   '.tree-view.full-menu':
     'Upload': 'remote-ftp:upload-selected'
+    'Sync local -> remote': 'remote-ftp:sync-with-local'
   '.tree-view.multi-select':
     'Upload': 'remote-ftp:upload-selected'
+    'Sync local -> remote': 'remote-ftp:sync-with-local'
   '.remote-ftp-view .list-tree.full-menu':
     'Add File': 'remote-ftp:add-file'
     'Add Folder': 'remote-ftp:add-folder'
@@ -11,8 +13,10 @@
     'Rename': 'remote-ftp:move-selected'
     'Delete': 'remote-ftp:delete-selected'
     'Download': 'remote-ftp:download-selected'
+    'Sync local <- remote': 'remote-ftp:sync-with-remote'
   '.remote-ftp-view .list-tree.multi-select':
     'Download': 'remote-ftp:download-selected'
+    'Sync local <- remote': 'remote-ftp:sync-with-remote'
 
 'menu': [
   {
