@@ -13,6 +13,8 @@
     "ftp": "*",
     "ssh2": "*",
     "fs-plus": "*",
-    "theorist": "*"
+    "theorist": "*",
+    "jquery": "^2",
+    "atom-space-pen-views": "^2.0.3"
   }
 }
