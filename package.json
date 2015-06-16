@@ -10,10 +10,11 @@
     "atom": ">=0.204.0 <2.0.0"
   },
   "dependencies": {
-    "ftp": "*",
-    "ssh2": "*",
+    "atom-space-pen-views": "^2.0.3",
     "fs-plus": "*",
-    "theorist": "*",
-    "atom-space-pen-views": "^2.0.3"
+    "ftp": "*",
+    "ignore": "^2.2.15",
+    "ssh2": "*",
+    "theorist": "*"
   }
 }
