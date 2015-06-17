@@ -31,6 +31,7 @@
       'submenu': [
         { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
         { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
+        { label: 'Create ignore file', command: 'remote-ftp:create-ignore-file' },
         { label: 'Toggle', command: 'remote-ftp:toggle' },
         { label: 'Connect', command: 'remote-ftp:connect' },
         { label: 'Disconnect', command: 'remote-ftp:disconnect' },
