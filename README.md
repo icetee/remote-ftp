@@ -22,6 +22,7 @@ FTP/FTPS/SFTP client for Atom.io
     "port": 22, // integer - Port number of the server. Default: 22
     "user": "user", // string - Username for authentication. Default: (none)
     "pass": "pass", // string - Password for password-based user authentication. Default: (none)
+    "prompt_for_pass": false, // boolean - Set to true for enable password dialog. This will prevent from using cleartext password in this config. Default: (none)
     "remote": "/",
     "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
     "privatekey": "", // mixed - Buffer or string that contains a private key for either key-based or hostbased user authentication (OpenSSH format). Default: (none)
@@ -41,6 +42,7 @@ FTP/FTPS/SFTP client for Atom.io
     "port": 21, // integer - The port of the FTP server. Default: 21
     "user": "user", // string - Username for authentication. Default: 'anonymous'
     "pass": "pass", // string - Password for authentication. Default: 'anonymous@'
+    "prompt_for_pass": false, // boolean - Set to true for enable password dialog. This will prevent from using cleartext password in this config. Default: (none)
     "remote": "/",
     "secure": false, // mixed - Set to true for both control and data connection encryption, 'control' for control connection encryption only, or 'implicit' for implicitly encrypted control connection (this mode is deprecated in modern times, but usually uses port 990) Default: false
     "secureOptions": null, // object - Additional options to be passed to tls.connect(). Default: (null) see http://nodejs.org/api/tls.html#tls_tls_connect_options_callback
