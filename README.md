@@ -25,7 +25,7 @@ FTP/FTPS/SFTP client for Atom.io
     "promptForPass": false, // boolean - Set to true for enable password dialog. This will prevent from using cleartext password in this config. Default: false
     "remote": "/",
     "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
-    "privatekey": "", // mixed - Buffer or string that contains a private key for either key-based or hostbased user authentication (OpenSSH format). Default: (none)
+    "privatekey": "", // string - Path to the private key file (in OpenSSH format). Default: (none)
     "passphrase": "", // string - For an encrypted private key, this is the passphrase used to decrypt it. Default: (none)
     "hosthash": "", // string - 'md5' or 'sha1'. The host's key is hashed using this method and passed to the hostVerifier function. Default: (none)
     "ignorehost": true,
