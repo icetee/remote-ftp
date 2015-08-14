@@ -15,6 +15,7 @@ FTP/FTPS/SFTP client for Atom.io
 ## Package preferences
 
 There are some settings hidden in the package preferences!
+
 ![Screenshot of Settings](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot-settings.png "Screenshot-settings")
 
 ## Configuration in project's `.ftpconfig` file
