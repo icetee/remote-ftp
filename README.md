@@ -12,7 +12,12 @@ FTP/FTPS/SFTP client for Atom.io
 1. Once connected you should be seeing the content of the remote connection
 1. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
 
-## Configuration
+## Package preferences
+
+There are some settings hidden in the package preferences!
+![Screenshot of Settings](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot-settings.png "Screenshot-settings")
+
+## Configuration in project's `.ftpconfig` file
 
 **SFTP Configuration Options**
 ```
