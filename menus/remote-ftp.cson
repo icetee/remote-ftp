@@ -20,7 +20,11 @@
   '.remote-ftp-view .list-tree.multi-select': [
       { label: 'Download', command: 'remote-ftp:download-selected' },
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
-  ]
+    ]
+  'atom-pane-container.panes [data-type="TextEditor"]': [
+      { label: 'Upload', command: 'remote-ftp:upload-tab' },
+      { label: 'Download', command: 'remote-ftp:download-tab' }
+    ]
 
 
 'menu': [
