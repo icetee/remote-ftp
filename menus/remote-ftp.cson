@@ -35,6 +35,7 @@
         { label: 'Connect', command: 'remote-ftp:connect' },
         { label: 'Disconnect', command: 'remote-ftp:disconnect' },
         { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
+        { label: 'Navigate to Current Path', command: 'remote-ftp:navigate-to-current' },
       ]
     ]
   }
