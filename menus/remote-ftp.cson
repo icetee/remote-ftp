@@ -29,12 +29,12 @@
     'submenu': [
       'label': 'Remote-FTP'
       'submenu': [
-        { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
-        { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
         { label: 'Toggle', command: 'remote-ftp:toggle' },
         { label: 'Connect', command: 'remote-ftp:connect' },
         { label: 'Disconnect', command: 'remote-ftp:disconnect' },
         { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
+        { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
+        { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
       ]
     ]
   }
