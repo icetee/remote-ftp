@@ -1,2 +1,3 @@
 'atom-workspace':
   'ctrl-alt-o': 'remote-ftp:toggle'
+  'cmd-shift-c': 'remote-ftp:navigate-to-current'
