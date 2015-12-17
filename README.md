@@ -28,7 +28,7 @@ There are some settings hidden in the package preferences!
     "port": 22, // integer - Port number of the server. Default: 22
     "user": "user", // string - Username for authentication. Default: (none)
     "pass": "pass", // string - Password for password-based user authentication. Default: (none)
-    "promptForPass": false, // boolean - Set to true for enable password dialog. This will prevent from using cleartext password in this config. Default: false
+    "promptForPass": false, // boolean - Set to true for enable password/passphrase dialog. This will prevent from using cleartext password/passphrase in this config. Default: false
     "remote": "/",
     "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
     "privatekey": "", // string - Path to the private key file (in OpenSSH format). Default: (none)
