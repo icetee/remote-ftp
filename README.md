@@ -1,5 +1,14 @@
 # Remote-FTP
 
+## Currently Testing Watch Functionality
+
+**Add The Below To `.fpconfig` file to watch and upload files that are not being edited by atom editor**
+```
+  watch:[
+    "./dist/stylesheets/main.css"
+  ]
+```
+
 FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
