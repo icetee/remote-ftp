@@ -1,14 +1,5 @@
 # Remote-FTP
 
-## Currently Testing Watch Functionality
-
-**Add The Below To `.fpconfig` file to watch and upload files that are not being edited by atom editor**
-```
-  watch:[
-    "./dist/stylesheets/main.css"
-  ]
-```
-
 FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
@@ -45,7 +36,10 @@ There are some settings hidden in the package preferences!
     "hosthash": "", // string - 'md5' or 'sha1'. The host's key is hashed using this method and passed to the hostVerifier function. Default: (none)
     "ignorehost": true,
     "connTimeout": 10000, // integer - How long (in milliseconds) to wait for the SSH handshake to complete. Default: 10000
-    "keepalive": 10000 // integer - How often (in milliseconds) to send SSH-level keepalive packets to the server (in a similar way as OpenSSH's ServerAliveInterval config option). Set to 0 to disable. Default: 10000
+    "keepalive": 10000, // integer - How often (in milliseconds) to send SSH-level keepalive packets to the server (in a similar way as OpenSSH's ServerAliveInterval config option). Set to 0 to disable. Default: 10000
+    "watch":[ // array - Files that are watched and when edited outside of the atom editor are uploaded. Useful if using a build tool e.g Gulp. Default : []
+        "./dist/stylesheets/main.css" // reference file from the root of the project.
+    ]
 }
 ```
 
@@ -63,7 +57,10 @@ There are some settings hidden in the package preferences!
     "secureOptions": null, // object - Additional options to be passed to tls.connect(). Default: (null) see http://nodejs.org/api/tls.html#tls_tls_connect_options_callback
     "connTimeout": 10000, // integer - How long (in milliseconds) to wait for the control connection to be established. Default: 10000
     "pasvTimeout": 10000, // integer - How long (in milliseconds) to wait for a PASV data connection to be established. Default: 10000
-    "keepalive": 10000 // integer - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. Default: 10000
+    "keepalive": 10000, // integer - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. Default: 10000
+    "watch":[ // array - Files that are watched and when edited outside of the atom editor are uploaded. Useful if using a build tool e.g Gulp. Default : []
+        "./dist/stylesheets/main.css" // reference file from the root of the project.
+    ]
 }
 ```
 
