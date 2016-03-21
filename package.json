@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "ftp": "*",
-    "ssh2": "*",
+    "ssh2": "^0.4",
     "fs-plus": "*",
     "theorist": "*",
     "atom-space-pen-views": "^2.0.3",
