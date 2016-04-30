@@ -2,7 +2,8 @@
 'context-menu':
   '.tree-view.full-menu': [
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
-      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
+      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
     ]
   '.tree-view.multi-select': [
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
@@ -15,6 +16,7 @@
       { label: 'Rename', command: 'remote-ftp:move-selected' },
       { label: 'Delete', command: 'remote-ftp:delete-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected' },
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
     ]
   '.remote-ftp-view .list-tree.multi-select': [
