@@ -29,7 +29,7 @@ There are some settings hidden in the package preferences!
     "user": "user", // string - Username for authentication. Default: (none)
     "pass": "pass", // string - Password for password-based user authentication. Default: (none)
     "promptForPass": false, // boolean - Set to true for enable password/passphrase dialog. This will prevent from using cleartext password/passphrase in this config. Default: false
-    "remote": "/",
+    "remote": "/", // try to use absolute paths starting with /
     "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
     "privatekey": "", // string - Path to the private key file (in OpenSSH format). Default: (none)
     "passphrase": "", // string - For an encrypted private key, this is the passphrase used to decrypt it. Default: (none)

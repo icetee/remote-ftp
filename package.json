@@ -1,7 +1,7 @@
 {
   "name": "Remote-FTP",
   "main": "./lib/remote-ftp",
-  "version": "0.7.20",
+  "version": "0.8.3",
   "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
   "activationCommands": [],
   "repository": "https://github.com/mgrenier/remote-ftp",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "ftp": "*",
-    "ssh2": "*",
+    "ssh2": "^0.4",
     "fs-plus": "*",
     "theorist": "*",
     "atom-space-pen-views": "^2.0.3",
