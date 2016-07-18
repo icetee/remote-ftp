@@ -11,10 +11,7 @@
   },
   "dependencies": {
     "ftp": "*",
-<<<<<<< HEAD
     "ignore": "^2.2.15",
-=======
->>>>>>> dae414d936d6725340e7cf4dd4e9d822b19ba8c2
     "ssh2": "^0.4",
     "fs-plus": "*",
     "theorist": "*",
