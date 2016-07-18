@@ -33,7 +33,10 @@
         { label: 'Connect', command: 'remote-ftp:connect' },
         { label: 'Disconnect', command: 'remote-ftp:disconnect' },
         { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
+<<<<<<< HEAD
         { label: 'Create ignore file', command: 'remote-ftp:create-ignore-file' },
+=======
+>>>>>>> dae414d936d6725340e7cf4dd4e9d822b19ba8c2
         { label: 'Create FTP config file', command: 'remote-ftp:create-ftp-config' },
         { label: 'Create SFTP config file', command: 'remote-ftp:create-sftp-config' },
       ]
