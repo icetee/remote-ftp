@@ -14,6 +14,7 @@
     "chokidar": "^1.6.0",
     "fs-plus": "*",
     "ftp": "*",
+	"ignore": "^2.2.15",
     "jslint": "*",
     "ssh2": "^0.4",
     "strip-json-comments": "*",
