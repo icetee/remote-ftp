@@ -1,7 +1,7 @@
 {
   "name": "Remote-FTP",
   "main": "./lib/remote-ftp",
-  "version": "0.8.5",
+  "version": "0.8.6",
   "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
   "activationCommands": [],
   "repository": "https://github.com/mgrenier/remote-ftp",
@@ -14,7 +14,7 @@
     "chokidar": "^1.6.0",
     "fs-plus": "*",
     "ftp": "*",
-	"ignore": "^2.2.15",
+    "ignore": "^2.2.15",
     "jslint": "*",
     "ssh2": "^0.4",
     "strip-json-comments": "*",
