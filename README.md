@@ -41,7 +41,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/main.css", // reference from the root of the project.
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
-    ]
+    ],
+    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
 }
 ```
 
@@ -64,7 +65,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/main.css", // reference from the root of the project.
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
-    ]
+    ],
+    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
 }
 ```
 
