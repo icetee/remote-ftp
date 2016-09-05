@@ -12,6 +12,7 @@
       { label: 'Add File', command: 'remote-ftp:add-file' },
       { label: 'Add Folder', command: 'remote-ftp:add-folder' },
       { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
+      { label: 'Disconnect', command: 'remote-ftp:disconnect' },
       { label: 'Rename', command: 'remote-ftp:move-selected' },
       { label: 'Delete', command: 'remote-ftp:delete-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected' },
