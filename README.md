@@ -4,6 +4,11 @@ FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
+## Whats new in 0.9.0
+
+- Support for multiple hosts in one window (beta). Enable in package preferences.
+- Various bug fixes
+
 ## Getting started
 
 1. **Open** an existing **project** or create a new one (File -> Open folder...)
