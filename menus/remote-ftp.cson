@@ -17,7 +17,8 @@
       { label: 'Rename', command: 'remote-ftp:move-selected' },
       { label: 'Delete', command: 'remote-ftp:delete-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected' },
-      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
+      { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' },
+      { label: 'Hide', command: 'remote-ftp:toggle' }
     ]
   '.remote-ftp-view .list-tree.multi-select': [
       { label: 'Download', command: 'remote-ftp:download-selected' },
