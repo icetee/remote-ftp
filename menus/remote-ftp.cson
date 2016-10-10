@@ -24,7 +24,10 @@
   '.remote-ftp-view .list-tree.multi-select': [
       { label: 'Download', command: 'remote-ftp:download-selected' },
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
-  ]
+    ]
+  'atom-text-editor': [
+      { label: 'Upload', command: 'remote-ftp:upload-active' },
+    ]
 
 
 'menu': [
