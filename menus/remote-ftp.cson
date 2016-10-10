@@ -2,6 +2,7 @@
 'context-menu':
   '.tree-view.full-menu': [
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
+      { label: 'Download <- remote', command: 'remote-ftp:download-selected-from-remote' },
       { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
     ]
   '.tree-view.multi-select': [
