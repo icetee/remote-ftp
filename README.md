@@ -4,6 +4,11 @@ FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
+## Whats new in 0.9.0
+
+- Support for multiple hosts in one window (beta). Enable in package preferences.
+- Various bug fixes
+
 ## Getting started
 
 1. **Open** an existing **project** or create a new one (File -> Open folder...)
@@ -41,7 +46,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/main.css", // reference from the root of the project.
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
-    ]
+    ],
+    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
 }
 ```
 
@@ -64,7 +70,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/main.css", // reference from the root of the project.
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
-    ]
+    ],
+    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
 }
 ```
 
