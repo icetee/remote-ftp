@@ -1,5 +1,7 @@
+@import "syntax-variables";
+
 .gutter .line-number.ftp-gui-prompt{
-    background-color: yellow !important;
+    background-color: @syntax-color-renamed !important;
 }
 
 .a-top-level-element{
@@ -8,15 +10,13 @@
   position: absolute;
 }
 
-.ftpconfig-input-label {
+.ftpconfig-input-label.btn.btn-info {
   display:block;
-  background-color: chartreuse;
   border-radius: 10px;
-  text-align: center;
-  padding: 10px 3px 10px 3px;
+  padding: 5px 25px 5px 25px;
 
   & span{
-    font-size: 1.25rem;
+    font-size: 1.7rem;
     position: relative;
   }
 }
