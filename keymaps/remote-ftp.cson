@@ -2,3 +2,4 @@
   'ctrl-alt-o': 'remote-ftp:toggle'
   'ctrl-alt-d': 'remote-ftp:disconnect'
   'ctrl-alt-c': 'remote-ftp:connect'
+  'cmd-shift-u': 'remote-ftp:upload-selected'
