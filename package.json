@@ -9,6 +9,13 @@
   "engines": {
     "atom": ">=0.204.0 <2.0.0"
   },
+  "consumedServices": {
+    "file-icons.element-icons": {
+      "versions": {
+        "1.0.0": "consumeElementIcons"
+      }
+    }
+  },
   "dependencies": {
     "atom-space-pen-views": "^2.0.3",
     "chokidar": "^1.6.0",
