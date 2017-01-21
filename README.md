@@ -17,6 +17,17 @@ FTP/FTPS/SFTP client for Atom.io
 1. Once connected you should be seeing the content of the remote connection
 1. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
 
+## Keyboard shortcuts
+
+We all know that some handy commands can make our daily task easier, this are meant to do that, be aware that the action of any of them could overwrite or be over written by any other plugin.
+
+  | Windows | Mac
+ --- | --- | ---
+Toggle | Ctrl + Alt + o | Ctrl + Alt + o
+Connect | Ctrl + Alt + c | Ctrl + Alt + c
+Disconnect | Ctrl + Alt + d | Ctrl + Alt + d
+Upload | Ctrl + Shift + u | Cmd + Shift + u
+
 ## Package preferences
 
 There are some settings hidden in the package preferences!
