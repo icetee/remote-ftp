@@ -22,7 +22,6 @@
     "fs-plus": "*",
     "ftp": "*",
     "ignore": "^2.2.15",
-    "jslint": "*",
     "ssh2": "^0.5",
     "strip-json-comments": "*",
     "theorist": "*"
