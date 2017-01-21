@@ -1,0 +1,31 @@
+{
+  "hideLocalWhenDisplayed": {
+    "type": "boolean",
+    "default": false
+  },
+  "autoUploadOnSave": {
+    "type": "string",
+    "default": "always",
+    "enum": ["always", "only when connected", "never"]
+  },
+  "showHiddenFiles": {
+    "type": "boolean",
+    "default": true
+  },
+  "showViewOnStartup": {
+    "type": "boolean",
+    "default": true
+  },
+  "enableCopyFilename": {
+    "type": "boolean",
+    "default": true
+  },
+  "multipleHosts ( Beta )":{
+    "type":"boolean",
+    "default":false
+  },
+  "enableTransferNotifications":{
+    "type":"boolean",
+    "default":false
+  }
+}

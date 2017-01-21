@@ -1,7 +1,7 @@
 {
   "name": "Remote-FTP",
   "main": "./lib/remote-ftp",
-  "version": "0.8.3",
+  "version": "0.10.0",
   "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
   "activationCommands": [],
   "repository": "https://github.com/mgrenier/remote-ftp",
@@ -9,13 +9,29 @@
   "engines": {
     "atom": ">=0.204.0 <2.0.0"
   },
+  "consumedServices": {
+    "file-icons.element-icons": {
+      "versions": {
+        "1.0.0": "consumeElementIcons"
+      }
+    }
+  },
   "dependencies": {
-    "ftp": "*",
-    "ssh2": "^0.4",
-    "fs-plus": "*",
-    "theorist": "*",
     "atom-space-pen-views": "^2.0.3",
+    "chokidar": "^1.6.0",
+    "fs-plus": "*",
+    "ftp": "*",
+    "ignore": "^2.2.15",
     "jslint": "*",
-    "strip-json-comments": "*"
+    "ssh2": "^0.5",
+    "strip-json-comments": "*",
+    "theorist": "*"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
   }
 }
