@@ -58,7 +58,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
     ],
-    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
+    "watchTimeout":500, // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
+    "filePermissions":"0644" // string - Permissions for uploaded files. WARNING: if this option is set, previously set permissions on the remote are overwritten!
 }
 ```
 
