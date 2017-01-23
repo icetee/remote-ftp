@@ -24,4 +24,10 @@
 
 # Changing file endings to lf
 
-*.js text eol=lf
+*.* text eol=lf
+
+# Force images to be handled as binaries
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.png binary
