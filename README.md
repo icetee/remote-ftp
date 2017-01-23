@@ -4,10 +4,13 @@ FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
-## Whats new in 0.9.0
+## Whats new in 0.10.2
 
-- Support for multiple hosts in one window (beta). Enable in package preferences.
-- Various bug fixes
+- `.ftpignore` file works as intended again for sync-local -> remote
+- (a little) faster loading & activation time
+- file permissions for SFTP
+- `enableTransferNotifications` setting
+- some more bugfixes
 
 ## Getting started
 
