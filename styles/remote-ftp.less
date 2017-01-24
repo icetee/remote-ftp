@@ -5,245 +5,250 @@
 @import "ui-variables";
 
 .remote-ftp-view {
-	position: relative;
-	width: 200px;
-	height: 100%;
-	overflow: hidden;
+    position: relative;
+    width: 200px;
+    height: 100%;
+    overflow: hidden;
 
-	> .resize-handle {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: -5px;
-		z-index: 10;
-		display: block;
-		width: 10px;
-		//cursor: e-resize;
-	}
+    > .resize-handle {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: -5px;
+        z-index: 10;
+        display: block;
+        width: 10px;
+        //cursor: e-resize;
+    }
 
-	> .offline {
-		> ul {
-			width: 100%;
-			padding: 10px;
-			list-style-type: none;
+    > .offline {
+        > ul {
+            width: 100%;
+            padding: 10px;
+            list-style-type: none;
 
-			> li a {
-				width: 100%;
-				margin-bottom: 5px;
-			}
-		}
-	}
+            > li a {
+                width: 100%;
+                margin-bottom: 5px;
+            }
+        }
+    }
 
-	> .scroller {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 27px;
-		display: block;
-		overflow: auto;
+    > .scroller {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 27px;
+        display: block;
+        overflow: auto;
 
-		> .list-tree {
-			min-height: 100%;
-			width: auto;
-			min-width: -webkit-min-content;
-			padding-left: 5px;
-			padding-right: 10px;
-		}
-	}
+        > .list-tree {
+            min-height: 100%;
+            width: auto;
+            min-width: -webkit-min-content;
+            padding-left: 5px;
+            padding-right: 10px;
+        }
+    }
 
-	.project-root.project-root > .header .name {
-		line-height: 3em;
-	}
+    .project-root.project-root > .header .name {
+        line-height: 3em;
+    }
 
-	> .queue {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		display: block;
-		height: 27px;
+    > .queue {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: block;
+        height: 27px;
 
-		> .progress {
-			display: none;
-			width: auto;
-			height: auto;
-			border-radius: 0;
-			border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-			list-style: none;
-			margin: 0 0 2px 0;
-			padding: 0;
+        > .progress {
+            display: none;
+            width: auto;
+            height: auto;
+            border-radius: 0;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+            list-style: none;
+            margin: 0 0 2px;
+            padding: 0;
 
-			> li {
-				display: flex;
-				margin: 0;
-				padding: 4px 8px;
-				font-size: 11px;
-				line-height: 18px;
+            > li {
+                display: flex;
+                margin: 0;
+                padding: 4px 8px;
+                font-size: 11px;
+                line-height: 18px;
+                flex-wrap: nowrap;
+                flex-direction: row;
+                justify-content: flex-start;
 
-				flex-wrap: nowrap;
-				flex-direction: row;
-				justify-content: flex-start;
+                progress {
+                    flex: none;
+                    width: 50px;
+                }
 
-				progress {
-					flex: none;
-					width: 50px;
-				}
+                .name {
+                    width: 100%;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    text-align: left;
+                }
 
-				.name {
-					width: 100%;
-					white-space: nowrap;
-					overflow: hidden;
-					text-overflow: ellipsis;
-					text-align: left;
-				}
+                .eta {
+                    flex: none;
+                    white-space: nowrap;
+                    text-align: right;
+                }
+            }
+        }
 
-				.eta {
-					flex: none;
-					white-space: nowrap;
-					text-align: right;
-				}
-			}
-		}
+        > .list {
+            display: block;
+            list-style: none;
+            margin: 0;
+            padding: 0;
 
-		> .list {
-			display: block;
-			list-style: none;
-			margin: 0;
-			padding: 0;
+            > li {
+                display: block;
+                margin: 0;
+                padding: 2px 8px;
+                line-height: 10px;
+                font-size: 10px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
 
-			> li {
-				display: block;
-				margin: 0;
-				padding: 2px 8px;
-				line-height: 10px;
-				font-size: 10px;
-				white-space: nowrap;
-				overflow: hidden;
-				text-overflow: ellipsis;
-			}
+            > li:first-of-type {
+                padding-top: 4px;
+                padding-bottom: 4px;
+                font-size: 11px;
+                line-height: 18px;
+            }
+        }
 
-			> li:first-of-type {
-				padding-top: 4px;
-				padding-bottom: 4px;
-				font-size: 11px;
-				line-height: 18px;
-			}
-		}
+        > .resize-handle {
+            position: absolute;
+            top: -5px;
+            left: 0;
+            right: 0;
+            z-index: 10;
+            display: block;
+            height: 10px;
+            cursor: n-resize;
+        }
+    }
 
-		> .resize-handle {
-			position: absolute;
-			top: -5px;
-			left: 0;
-			right: 0;
-			z-index: 10;
-			display: block;
-			height: 10px;
-			cursor: n-resize;
-		}
-	}
-
-	> .offline {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		z-index: 3;
-		opacity: 0.8;
-		display: flex;
-		-webkit-box-align: center;
-		align-items: center;
-		text-align: center;
-		justify-content: center;
-	}
-
+    > .offline {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+        opacity: 0.8;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
 }
 
 .ftptree-view-resizer {
-  position: relative;
-  height: 100%;
-  overflow: hidden;
-  cursor: default;
-  -webkit-user-select: none;
-  min-width: 100px;
-  width: 200px;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-
-  // use these classes to re-order
-  // using a value in-between is fine too, e.g. order: -3;
-  & > .order--start  { order: -10; }
-  & > .order--center { order:   0; }
-  & > .order--end    { order:  10; }
-
-  .ftptree-view-resize-handle {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 10px;
-    cursor: col-resize;
-    z-index: 3;
-  }
-
-  &[data-show-on-right-side='true'] {
-    .ftptree-view-resize-handle {
-      left: -5px;
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    cursor: default;
+    -webkit-user-select: none;
+    min-width: 100px;
+    width: 200px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    // use these classes to re-order
+    // using a value in-between is fine too, e.g. order: -3;
+    & > .order--start {
+        order: -10;
     }
-  }
 
-  &[data-show-on-right-side='false'] {
-    .ftptree-view-resize-handle {
-      right: -5px;
+    & > .order--center {
+        order: 0;
     }
-  }
+
+    & > .order--end {
+        order: 10;
+    }
+
+    .ftptree-view-resize-handle {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 10px;
+        cursor: col-resize;
+        z-index: 3;
+    }
+
+    &[data-show-on-right-side='true'] {
+        .ftptree-view-resize-handle {
+            left: -5px;
+        }
+    }
+
+    &[data-show-on-right-side='false'] {
+        .ftptree-view-resize-handle {
+            right: -5px;
+        }
+    }
 }
 
 .ftptree-view-scroller {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  width: 100%;
-  overflow: auto;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    overflow: auto;
 }
 
 .ftptree-view {
-  flex-grow: 1;
-  flex-shrink: 0;
-  min-width: -webkit-min-content;
-  min-height: 100%;
-  padding-left: @component-icon-padding;
-  padding-right: @component-padding;
-  position: relative;
-
-  .header {
+    flex-grow: 1;
+    flex-shrink: 0;
+    min-width: -webkit-min-content;
+    min-height: 100%;
+    padding-left: @component-icon-padding;
+    padding-right: @component-padding;
     position: relative;
-  }
 
-  .list-tree {
-    position: static;
-  }
-
-  .entry {
-    // This fixes #110, see that issue for more details
-    &:before {
-      content: '';
-      position: absolute;
+    .header {
+        position: relative;
     }
-  }
 
-  .project-root {
-	&:before {
-	  height: 3em !important;
+    .list-tree {
+        position: static;
     }
-  }
+
+    .entry {
+        // This fixes #110, see that issue for more details
+        &:before {
+            content: '';
+            position: absolute;
+        }
+    }
+
+    .project-root {
+        &:before {
+            height: 3em !important;
+        }
+    }
 }
 
 .platform-win32 {
-  .ftptree-view-resizer {
-    .ftptree-view-resize-handle {
-      cursor: ew-resize;
+    .ftptree-view-resizer {
+        .ftptree-view-resize-handle {
+            cursor: ew-resize;
+        }
     }
-  }
 }
