@@ -23,5 +23,9 @@
   "multipleHosts ( Beta )":{
     "type":"boolean",
     "default":false
+  },
+  "enableTransferNotifications":{
+    "type":"boolean",
+    "default":false
   }
 }

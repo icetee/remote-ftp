@@ -4,10 +4,13 @@ FTP/FTPS/SFTP client for Atom.io
 
 ![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
 
-## Whats new in 0.9.0
+## Whats new in 0.10.2
 
-- Support for multiple hosts in one window (beta). Enable in package preferences.
-- Various bug fixes
+- `.ftpignore` file works as intended again for sync-local -> remote
+- (a little) faster loading & activation time
+- file permissions for SFTP
+- `enableTransferNotifications` setting
+- some more bugfixes
 
 ## Getting started
 
@@ -16,6 +19,17 @@ FTP/FTPS/SFTP client for Atom.io
 1. **Create a configuration file** for your project (Packages -> Remote-FTP -> Create (s)FTP config file)
 1. Once connected you should be seeing the content of the remote connection
 1. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
+
+## Keyboard shortcuts
+
+We all know that some handy commands can make our daily task easier, this are meant to do that, be aware that the action of any of them could overwrite or be over written by any other plugin.
+
+  | Windows | Mac
+ --- | --- | ---
+Toggle | Ctrl + Alt + o | Ctrl + Alt + o
+Connect | Ctrl + Alt + c | Ctrl + Alt + c
+Disconnect | Ctrl + Alt + d | Ctrl + Alt + d
+Upload | Ctrl + Shift + u | Cmd + Shift + u
 
 ## Package preferences
 
@@ -36,7 +50,7 @@ There are some settings hidden in the package preferences!
     "promptForPass": false, // boolean - Set to true for enable password/passphrase dialog. This will prevent from using cleartext password/passphrase in this config. Default: false
     "remote": "/", // try to use absolute paths starting with /
     "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
-    "privatekey": "", // string - Path to the private key file (in OpenSSH format). Default: (none)
+    "privatekey": "", // string - Absolute path to the private key file (in OpenSSH format). Default: (none)
     "passphrase": "", // string - For an encrypted private key, this is the passphrase used to decrypt it. Default: (none)
     "hosthash": "", // string - 'md5' or 'sha1'. The host's key is hashed using this method and passed to the hostVerifier function. Default: (none)
     "ignorehost": true,
@@ -47,7 +61,8 @@ There are some settings hidden in the package preferences!
         "./dist/stylesheets/",
         "./dist/stylesheets/*.css"
     ],
-    "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
+    "watchTimeout":500, // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
+    "filePermissions":"0644" // string - Permissions for uploaded files. WARNING: if this option is set, previously set permissions on the remote are overwritten!
 }
 ```
 
@@ -76,11 +91,10 @@ There are some settings hidden in the package preferences!
 ```
 
 ## I'd like to support this project
-Help me bring this project to the moon! Atom's rocket needs to get somewhere, right?
+Help us bring this project to the moon! Atom's rocket needs to get somewhere, right?
+- **Contribute!** I'll be happy to accept pull requests!
 - **Bug hunting!** [Report](https://github.com/mgrenier/remote-ftp/issues) them!
 - **Feature request?** [Please let me know](https://github.com/mgrenier/remote-ftp/issues) by filling an issue!
-- **Contribute!** It'll be happy to accept pull request!
 - **Share the love!**
  - Star this project on [Atom](https://atom.io/packages/remote-ftp), [Github](https://github.com/mgrenier/remote-ftp)
  - Speak out on the [forum](https://discuss.atom.io/)
- -  [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PZ3HU7CCJQ6BL) a little something !
