@@ -80,7 +80,7 @@ There are some settings hidden in the package preferences!
     "secureOptions": null, // object - Additional options to be passed to tls.connect(). Default: (null) see http://nodejs.org/api/tls.html#tls_tls_connect_options_callback
     "connTimeout": 10000, // integer - How long (in milliseconds) to wait for the control connection to be established. Default: 10000
     "pasvTimeout": 10000, // integer - How long (in milliseconds) to wait for a PASV data connection to be established. Default: 10000
-    "keepalive": 10000, // integer - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. Default: 10000
+    "keepalive": 10000, // integer - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. Default: 10000. If set to 0, keepalive is disabled.
     "watch":[ // array - Paths to files, directories, or glob patterns that are watched and when edited outside of the atom editor are uploaded. Default : []
         "./dist/stylesheets/main.css", // reference from the root of the project.
         "./dist/stylesheets/",
