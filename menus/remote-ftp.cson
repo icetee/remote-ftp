@@ -1,16 +1,16 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
-  '.tree-view.full-menu': [
+  '.tree-view.full-menu, .tree-view .full-menu': [
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected-local' },
       { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
     ]
-  '.tree-view.multi-select': [
+  '.tree-view.multi-select, .tree-view .multi-select': [
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected-local' },
       { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
     ]
-  '.remote-ftp-view .list-tree.full-menu': [
+  '.remote-ftp-view .list-tree.full-menu, .remote-ftp-view .list-tree .full-menu': [
       { label: 'Add File', command: 'remote-ftp:add-file' },
       { label: 'Add Folder', command: 'remote-ftp:add-folder' },
       { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
@@ -21,7 +21,7 @@
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' },
       { label: 'Hide', command: 'remote-ftp:toggle' }
     ]
-  '.remote-ftp-view .list-tree.multi-select': [
+  '.remote-ftp-view .list-tree.multi-select, .remote-ftp-view .list-tree .multi-select': [
       { label: 'Download', command: 'remote-ftp:download-selected' },
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' }
     ]
