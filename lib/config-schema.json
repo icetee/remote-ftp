@@ -27,5 +27,10 @@
   "enableTransferNotifications":{
     "type":"boolean",
     "default":false
+  },
+  "sshConfigPath": {
+    "type": "string",
+    "default": "",
+    "description": "Absolute path to your SSH config file (eg. /Users/yourname/.ssh/config). Optional."
   }
 }
