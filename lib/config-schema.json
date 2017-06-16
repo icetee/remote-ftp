@@ -1,4 +1,8 @@
 {
+  "useNewDockIntegration":{
+    "type":"boolean",
+    "default":false
+  },
   "hideLocalWhenDisplayed": {
     "type": "boolean",
     "default": false
