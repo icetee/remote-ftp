@@ -1,35 +1,91 @@
 {
-  "useNewDockIntegration":{
-    "type":"boolean",
-    "default":false
-  },
-  "hideLocalWhenDisplayed": {
-    "type": "boolean",
-    "default": false
-  },
   "autoUploadOnSave": {
     "type": "string",
     "default": "always",
-    "enum": ["always", "only when connected", "never"]
+    "enum": ["always", "only when connected", "never"],
+    "order": 1
   },
-  "showHiddenFiles": {
-    "type": "boolean",
-    "default": true
+  "tree": {
+    "type": "object",
+    "title": "Tree view strategies",
+    "properties": {
+      "hideLocalWhenDisplayed": {
+        "type": "boolean",
+        "title": "Hide Local When Displayed",
+        "description": "",
+        "default": false,
+        "order": 1
+      },
+      "showViewOnStartup": {
+        "type": "boolean",
+        "title": "Show View On Startup",
+        "description": "Every startup show View",
+        "default": true,
+        "order": 2
+      },
+      "showHiddenFiles": {
+        "type": "boolean",
+        "title": "Show Hidden Files",
+        "description": "Show hidden files in View",
+        "default": true,
+        "order": 3
+      },
+      "useNewDockIntegration": {
+        "type": "boolean",
+        "title": "Use New Dock Integration",
+        "description": "Remove oldschool Panel and use Pane in Docks. Only available from Atom 1.17.0",
+        "default": false,
+        "order": 4
+      }
+    },
+    "order": 2
   },
-  "showViewOnStartup": {
-    "type": "boolean",
-    "default": true
+  "context": {
+    "type": "object",
+    "title": "Context menu strategies",
+    "properties": {
+      "enableCopyFilename": {
+        "type": "boolean",
+        "title": "Enable Copy Filename",
+        "description": "Show Copyfilename function in contextmenu",
+        "default": true,
+        "order": 1
+      }
+    },
+    "order": 3
   },
-  "enableCopyFilename": {
-    "type": "boolean",
-    "default": true
+  "notifications": {
+    "type": "object",
+    "title": "Notification strategies",
+    "properties": {
+      "enableTransfer": {
+        "type": "boolean",
+        "title": "Enable transfer",
+        "description": "Notification when uploading file.",
+        "default": false,
+        "order": 1
+      },
+      "enableWatchFileChange": {
+        "type": "boolean",
+        "title": "Enable Watch File Change",
+        "description": "Notification when change file.",
+        "default": false,
+        "order": 2
+      }
+    },
+    "order": 4
   },
-  "multipleHosts ( Beta )":{
-    "type":"boolean",
-    "default":false
-  },
-  "enableTransferNotifications":{
-    "type":"boolean",
-    "default":false
+  "beta": {
+    "type": "object",
+    "title": "Beta strategies",
+    "properties": {
+        "multipleHosts": {
+          "type": "boolean",
+          "title": "",
+          "default": false,
+          "order": 1
+        }
+    },
+    "order": 5
   }
 }
