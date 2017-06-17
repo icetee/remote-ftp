@@ -12,6 +12,7 @@
 
 + Bad version number in new Dock notification
 + Fix #820 issue, thanks @robhuska
++ Fix bad watch paths #724
 
 ## [1.0.0] - 2017-06-17
 
