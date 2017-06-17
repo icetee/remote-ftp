@@ -2,7 +2,16 @@
 
 ## [Unreleased]
 
+## Changed
 
++ Little ES6 styles
++ Renew config types
++ Simplify config query in attach method
+
+## Fixed
+
++ Bad version number in new Dock notification
++ Fix #820 issue, thanks @robhuska
 
 ## [1.0.0] - 2017-06-17
 
