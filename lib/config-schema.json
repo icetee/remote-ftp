@@ -30,9 +30,9 @@
         "default": true,
         "order": 3
       },
-      "useNewDockIntegration": {
+      "useDockIntegration": {
         "type": "boolean",
-        "title": "Use New Dock Integration",
+        "title": "Use Dock Integration",
         "description": "Remove oldschool Panel and use Pane in Docks. Only available from Atom 1.17.0",
         "default": false,
         "order": 4

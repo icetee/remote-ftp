@@ -7,12 +7,14 @@
 + Little ES6 styles
 + Renew config types
 + Simplify config query in attach method
++ Dock option change name
 
 ## Fixed
 
 + Bad version number in new Dock notification
-+ Fix #820 issue, thanks @robhuska
-+ Fix bad watch paths #724
++ Fix [#820](https://github.com/mgrenier/remote-ftp/issues/820) issue, thanks @robhuska
++ Fix bad watch paths [#724](https://github.com/mgrenier/remote-ftp/issues/724)
++ 421 Timeout issue [#591](https://github.com/mgrenier/remote-ftp/issues/591)
 
 ## [1.0.0] - 2017-06-17
 
