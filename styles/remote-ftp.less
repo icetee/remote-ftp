@@ -10,6 +10,14 @@
 	height: 100%;
 	overflow: hidden;
 
+    &[data-use-dock-integration="true"] {
+        width: 100% !important;
+
+        > .resize-handle {
+            display: none;
+        }
+    }
+
 	> .resize-handle {
 		position: absolute;
 		top: 0;
@@ -53,7 +61,7 @@
 	}
 
 	.project-root.project-root > .header .name {
-		line-height: 3em;
+		line-height: 2.5em;
 	}
 
 	> .queue {
@@ -239,7 +247,7 @@
 
   .project-root {
 	&:before {
-	  height: 3em !important;
+	  height: 2.5em !important;
     }
   }
 }
