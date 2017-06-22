@@ -8,6 +8,8 @@
 + Renew config types
 + Simplify config query in attach method
 + Dock option change name
++ Modernize debugger
++ Hide resize-handle in Dock mode
 
 ## Fixed
 

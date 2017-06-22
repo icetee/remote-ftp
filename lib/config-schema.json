@@ -87,5 +87,19 @@
         }
     },
     "order": 5
+  },
+  "dev": {
+    "type": "object",
+    "title": "Development strategies",
+    "properties": {
+        "debugResponse": {
+          "type": "boolean",
+          "title": "Debug Response",
+          "description": "Add communication text in console.",
+          "default": false,
+          "order": 1
+        }
+    },
+    "order": 6
   }
 }
