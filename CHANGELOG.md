@@ -23,6 +23,7 @@
 + 421 Timeout issue [#591](https://github.com/mgrenier/remote-ftp/issues/591)
 + Fix invalid getFileName [#840](https://github.com/mgrenier/remote-ftp/issues/840)
 + Fix editor.getPath is not a function [#810](https://github.com/mgrenier/remote-ftp/issues/810)
++ Auto hide in Info notifications [#767](https://github.com/mgrenier/remote-ftp/issues/767)
 
 ## [1.0.0] - 2017-06-17
 
