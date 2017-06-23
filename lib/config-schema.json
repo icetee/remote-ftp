@@ -3,13 +3,20 @@
     "type": "object",
     "title": "Connector strategies",
     "properties": {
-     "autoUploadOnSave": {
-       "type": "string",
-       "title": "Auto Upload On Save",
-       "default": "always",
-       "enum": ["always", "only when connected", "never"],
-       "order": 1
-     }
+      "autoUploadOnSave": {
+        "type": "string",
+        "title": "Auto Upload On Save",
+        "default": "always",
+        "enum": ["always", "only when connected", "never"],
+        "order": 1
+      },
+      "sshConfigPath": {
+        "type": "string",
+        "title": "SSH Config Path",
+        "default": "",
+        "description": "Absolute path to your SSH config file (eg. ~/.ssh/config)",
+        "order": 2
+      }
     },
     "order": 1
   },
