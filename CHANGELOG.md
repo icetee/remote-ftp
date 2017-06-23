@@ -13,6 +13,7 @@
 + Code beautification
 + Skip create folder structure in case permission denied
 + Add notification permission denied
++ Remove duplicate notification
 
 ## Fixed
 
