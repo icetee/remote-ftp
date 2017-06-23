@@ -18,10 +18,11 @@
 ## Fixed
 
 + Bad version number in new Dock notification
-+ Fix [#820](https://github.com/mgrenier/remote-ftp/issues/820) issue, thanks @robhuska
++ Fix [#820](https://github.com/mgrenier/remote-ftp/issues/820) issue, thanks [@robhuska](https://github.com/robhuska)
 + Fix bad watch paths [#724](https://github.com/mgrenier/remote-ftp/issues/724)
 + 421 Timeout issue [#591](https://github.com/mgrenier/remote-ftp/issues/591)
 + Fix invalid getFileName [#840](https://github.com/mgrenier/remote-ftp/issues/840)
++ Fix editor.getPath is not a function [#810](https://github.com/mgrenier/remote-ftp/issues/810)
 
 ## [1.0.0] - 2017-06-17
 
