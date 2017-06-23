@@ -1,8 +1,16 @@
 {
-  "autoUploadOnSave": {
-    "type": "string",
-    "default": "always",
-    "enum": ["always", "only when connected", "never"],
+  "connector": {
+    "type": "object",
+    "title": "Connector strategies",
+    "properties": {
+     "autoUploadOnSave": {
+       "type": "string",
+       "title": "Auto Upload On Save",
+       "default": "always",
+       "enum": ["always", "only when connected", "never"],
+       "order": 1
+     }
+    },
     "order": 1
   },
   "tree": {
