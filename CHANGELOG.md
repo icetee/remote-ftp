@@ -10,6 +10,9 @@
 + Dock option change name
 + Modernize debugger
 + Hide resize-handle in Dock mode
++ Code beautification
++ Skip create folder structure in case permission denied
++ Add notification permission denied
 
 ## Fixed
 
