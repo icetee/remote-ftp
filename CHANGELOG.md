@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+
+
+## [1.1.0] - 2017-07-03
+
 ## Changed
 
 + Little ES6 styles
