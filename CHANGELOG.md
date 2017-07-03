@@ -18,6 +18,7 @@
 + Remove unnecessary debug lines
 + Clarifying variables
 + Check exists if create folder or file in remote
++ Rewrite .ftpignore
 
 ## Fixed
 
@@ -29,6 +30,7 @@
 + Fix editor.getPath is not a function [#810](https://github.com/mgrenier/remote-ftp/issues/810)
 + Auto hide in Info notifications [#767](https://github.com/mgrenier/remote-ftp/issues/767)
 + Fix ENOTDIR issue [#112](https://github.com/mgrenier/remote-ftp/issues/112)
++ Fix checkIgnore parameter
 
 ## [1.0.0] - 2017-06-17
 
