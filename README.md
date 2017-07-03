@@ -2,7 +2,7 @@
 
 FTP/FTPS/SFTP client for Atom.io
 
-![Screenshot](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot.png "Screenshot")
+![Screenshot](https://raw.githubusercontent.com/icetee/remote-ftp/master/screenshot.png "Screenshot")
 
 ## Getting started
 
@@ -27,7 +27,7 @@ We all know that some handy commands can make our daily task easier, this are me
 
 There are some settings hidden in the package preferences!
 
-![Screenshot of Settings](https://raw.githubusercontent.com/mgrenier/remote-ftp/master/screenshot-settings.png "Screenshot-settings")
+![Screenshot of Settings](https://raw.githubusercontent.com/icetee/remote-ftp/master/screenshot-settings.png "Screenshot-settings")
 
 ## Configuration in project's `.ftpconfig` file
 
@@ -89,9 +89,9 @@ There are some settings hidden in the package preferences!
 Help us bring this project to the moon! Atom's rocket needs to get somewhere, right?
 
 - **Contribute!** I'll be happy to accept pull requests!
-- **Bug hunting!** [Report](https://github.com/mgrenier/remote-ftp/issues) them!
-- **Feature request?** [Please let me know](https://github.com/mgrenier/remote-ftp/issues) by filling an issue!
+- **Bug hunting!** [Report](https://github.com/icetee/remote-ftp/issues) them!
+- **Feature request?** [Please let me know](https://github.com/icetee/remote-ftp/issues) by filling an issue!
 - **Share the love!**
 
-  - Star this project on [Atom](https://atom.io/packages/remote-ftp), [Github](https://github.com/mgrenier/remote-ftp)
+  - Star this project on [Atom](https://atom.io/packages/remote-ftp), [Github](https://github.com/icetee/remote-ftp)
   - Speak out on the [forum](https://discuss.atom.io/)
