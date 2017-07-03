@@ -20,6 +20,7 @@
 + Check exists if create folder or file in remote
 + Rewrite .ftpignore
 + Transfered ownership [#813](https://github.com/icetee/remote-ftp/issues/813)
++ Added contributors in README.md
 
 ## Fixed
 
