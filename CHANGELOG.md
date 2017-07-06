@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+
+
+
+## [1.1.1] - 2017-07-07
+
 ## Fixed
 + Solved #877 issue.
 + Optimized structure query for mkdir
