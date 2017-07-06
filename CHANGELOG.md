@@ -6,6 +6,10 @@
 + Solved #877 issue.
 + Optimized structure query for mkdir
 + Add plus notification (remote-ftp:add-file and remote-ftp:add-folder commands)
++ Unfortunately, there are currently unverified transactions. #876
++ Fixed wrong notification
++ Flush unnecessary cwd
++ Check undefined FTP folder list
 
 ## [1.1.0] - 2017-07-03
 
