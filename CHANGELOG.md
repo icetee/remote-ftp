@@ -2,7 +2,10 @@
 
 ## [Unreleased]
 
-
+## Fixed
++ Solved #877 issue.
++ Optimized structure query for mkdir
++ Add plus notification (remote-ftp:add-file and remote-ftp:add-folder commands)
 
 ## [1.1.0] - 2017-07-03
 
