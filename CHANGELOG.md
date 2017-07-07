@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2017-07-08
+
 ## Changed
 
 + Add check exists symlinks
@@ -11,7 +13,6 @@
 + Cannot read property 'filter' of undefined #890
 + Resolve wrong paths
 + Incorrect type identification #889
-
 
 ## [1.1.1] - 2017-07-07
 
