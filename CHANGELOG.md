@@ -9,6 +9,7 @@
 ## Fixed
 
 + Cannot read property 'filter' of undefined #890
++ Resolve wrong paths
 
 
 ## [1.1.1] - 2017-07-07
