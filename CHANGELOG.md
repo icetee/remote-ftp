@@ -2,12 +2,19 @@
 
 ## [Unreleased]
 
+## Changed
 
++ Add check exists symlinks
+
+## Fixed
+
++ Cannot read property 'filter' of undefined #890
 
 
 ## [1.1.1] - 2017-07-07
 
 ## Fixed
+
 + Solved #877 issue.
 + Optimized structure query for mkdir
 + Add plus notification (remote-ftp:add-file and remote-ftp:add-folder commands)
