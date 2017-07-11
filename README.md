@@ -84,6 +84,10 @@ There are some settings hidden in the package preferences!
 }
 ```
 
+## How to use .ftpignore?
+
+This package use the [ignore](https://www.npmjs.com/package/ignore) npm package. Which covers the operation of fully [gitignore](https://git-scm.com/docs/gitignore).
+
 ## I'd like to support this project
 
 Help us bring this project to the moon! Atom's rocket needs to get somewhere, right?
