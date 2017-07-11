@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [1.1.3] - 2017-07-11
+
+## Fixed
+
++ Fix timeout to use Pure-FTP #591
++ Fix infinity listen debug event
+
 ## [1.1.2] - 2017-07-08
 
 ## Changed
