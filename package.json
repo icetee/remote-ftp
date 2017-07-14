@@ -19,19 +19,19 @@
   "dependencies": {
     "atom-space-pen-views": "^2.2.0",
     "chokidar": "^1.6.1",
-    "fs-plus": "^2.9.3",
+    "fs-plus": "^3.0.1",
     "ftp": "^0.3.10",
     "ignore": "^3.2.0",
+    "ssh-config": "^1.0.1",
     "ssh2": "^0.5.4",
     "strip-json-comments": "^2.0.1",
-    "theorist": "^1.0.2",
-    "ssh-config": "^1.0.1"
+    "theorist": "^1.0.2"
   },
   "devDependencies": {
-    "eslint": "^3.7.1",
-    "eslint-config-airbnb": "^12.0.0",
-    "eslint-plugin-import": "^1.16.0",
-    "eslint-plugin-jsx-a11y": "^2.2.2",
-    "eslint-plugin-react": "^6.3.0"
+    "eslint": "^4.2.0",
+    "eslint-config-airbnb": "^15.0.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.1.0"
   }
 }
