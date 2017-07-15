@@ -6,7 +6,9 @@
     "node": true
   },
   "globals": {
-    "atom": true
+     "atom",
+     "document",
+     "window"
   },
   "rules": {
     "no-underscore-dangle": 0,
