@@ -42,7 +42,7 @@ There are some settings hidden in the package preferences!
     "pass": "pass", // string - Password for password-based user authentication. Default: (none)
     "promptForPass": false, // boolean - Set to true for enable password/passphrase dialog. This will prevent from using cleartext password/passphrase in this config. Default: false
     "remote": "/", // try to use absolute paths starting with /
-    "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
+    "agent": "", // string - Path to ssh-agent's UNIX socket for ssh-agent-based user authentication. Linux/Mac users can set "env" as a value to use env SSH_AUTH_SOCK variable. Windows users: set to 'pageant' for authenticating with Pageant or (actual) path to a cygwin "UNIX socket." Default: (none)
     "privatekey": "", // string - Absolute path to the private key file (in OpenSSH format). Default: (none)
     "passphrase": "", // string - For an encrypted private key, this is the passphrase used to decrypt it. Default: (none)
     "hosthash": "", // string - 'md5' or 'sha1'. The host's key is hashed using this method and passed to the hostVerifier function. Default: (none)
