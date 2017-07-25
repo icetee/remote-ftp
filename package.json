@@ -17,10 +17,10 @@
     }
   },
   "dependencies": {
+    "@icetee/ftp": "^0.3.11",
     "atom-space-pen-views": "^2.2.0",
     "chokidar": "^1.6.1",
     "fs-plus": "^3.0.1",
-    "ftp": "^0.3.10",
     "ignore": "^3.2.0",
     "ssh-config": "^1.0.1",
     "ssh2": "^0.5.4",
