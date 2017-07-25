@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
++ Supported UTF-8 filename in File-tree #919
+
 ## [1.1.3] - 2017-07-11
 
 ## Fixed
