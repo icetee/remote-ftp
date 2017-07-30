@@ -88,6 +88,10 @@ There are some settings hidden in the package preferences!
 
 This package use the [ignore](https://www.npmjs.com/package/ignore) npm package. Which covers the operation of fully [gitignore](https://git-scm.com/docs/gitignore).
 
+## How use multiproject mode?
+
+It is a very alpha / beta version. For the time being, only 1 project is supported at one time.
+
 ## I'd like to support this project
 
 Help us bring this project to the moon! Atom's rocket needs to get somewhere, right?
