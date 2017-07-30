@@ -2,7 +2,32 @@
 
 ## [Unreleased]
 
+## [1.1.4] - 2017-07-30
+
+## Fixed
+
 + Supported UTF-8 filename in File-tree #919
++ Fix .ftpconfig ENOENT issue
++ Add usable notifications #896 #112 #373 #434
++ Add `ssh-agent` documentation #849 (Thank @zlibra, @BenKennish)
++ Bad substr logic and set recursive download for 'Local < Remote' command #918
++ Add multiproject detail #920
+
+## Changed
++ Add `.ftpignore` documentation
++ Update deprecated packages
++ Tree view, File view, Directory view, file.js, directory.js changed to ES6
++ Extended `.eslintrc`
++ Remove `theorist` dependency (no maintained)
++ `Theorist` changed to `event-kit`
++ Begin notifications collect to notifications.js
++ Implemented `mlsd`
++ Add more helpers
++ Change double `cwd` to `mlsd` method
++ Centralized `isConnected` method in ftp.js
++ Change `self` to `this` several places
++ Optimized codes
++ 🎨 Change code styles
 
 ## [1.1.3] - 2017-07-11
 
