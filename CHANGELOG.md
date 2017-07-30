@@ -8,10 +8,10 @@
 
 + Supported UTF-8 filename in File-tree #919
 + Fix .ftpconfig ENOENT issue
-+ Add usable notifications #896 #112 #373 #434
-+ Add `ssh-agent` documentation #849 (Thank @zlibra, @BenKennish)
-+ Bad substr logic and set recursive download for 'Local < Remote' command #918
-+ Add multiproject detail #920
++ Add usable notifications [#896](https://github.com/icetee/remote-ftp/issues/896) [#112](https://github.com/icetee/remote-ftp/issues/112) [#373](https://github.com/icetee/remote-ftp/issues/873) [#434](https://github.com/icetee/remote-ftp/issues/434)
++ Add `ssh-agent` documentation [#849](https://github.com/icetee/remote-ftp/issues/849) (Thank [@zlibra](https://github.com/zlibra), [@BenKennish](https://github.com/BenKennish))
++ Bad substr logic and set recursive download for 'Local < Remote' command [#918](https://github.com/icetee/remote-ftp/issues/918)
++ Add multiproject detail [#920](https://github.com/icetee/remote-ftp/issues/920)
 
 ## Changed
 + Add `.ftpignore` documentation
@@ -33,7 +33,7 @@
 
 ## Fixed
 
-+ Fix timeout to use Pure-FTP #591
++ Fix timeout to use Pure-FTP [#591](https://github.com/icetee/remote-ftp/issues/591)
 + Fix infinity listen debug event
 
 ## [1.1.2] - 2017-07-08
@@ -44,18 +44,18 @@
 
 ## Fixed
 
-+ Cannot read property 'filter' of undefined #890
++ Cannot read property 'filter' of undefined [#890](https://github.com/icetee/remote-ftp/issues/890)
 + Resolve wrong paths
-+ Incorrect type identification #889
++ Incorrect type identification [#889](https://github.com/icetee/remote-ftp/issues/889)
 
 ## [1.1.1] - 2017-07-07
 
 ## Fixed
 
-+ Solved #877 issue.
++ Solved [#877](https://github.com/icetee/remote-ftp/issues/877) issue.
 + Optimized structure query for mkdir
 + Add plus notification (remote-ftp:add-file and remote-ftp:add-folder commands)
-+ Unfortunately, there are currently unverified transactions. #876
++ Unfortunately, there are currently unverified transactions. [#876](https://github.com/icetee/remote-ftp/issues/876)
 + Fixed wrong notification
 + Flush unnecessary cwd
 + Check undefined FTP folder list
