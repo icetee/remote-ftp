@@ -6,7 +6,7 @@
 
 ## Fixed
 
-+ Supported UTF-8 filename in File-tree #919
++ Supported UTF-8 filename in File-tree [#919](https://github.com/icetee/remote-ftp/issues/919)
 + Fix .ftpconfig ENOENT issue
 + Add usable notifications [#896](https://github.com/icetee/remote-ftp/issues/896) [#112](https://github.com/icetee/remote-ftp/issues/112) [#373](https://github.com/icetee/remote-ftp/issues/873) [#434](https://github.com/icetee/remote-ftp/issues/434)
 + Add `ssh-agent` documentation [#849](https://github.com/icetee/remote-ftp/issues/849) (Thank [@zlibra](https://github.com/zlibra), [@BenKennish](https://github.com/BenKennish))
