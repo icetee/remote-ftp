@@ -25,6 +25,7 @@
     "ignore": "^3.2.0",
     "ssh-config": "^1.0.1",
     "ssh2": "^0.5.4",
+    "ssh2-streams": "^0.1.19",
     "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
