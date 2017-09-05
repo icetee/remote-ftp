@@ -24,33 +24,40 @@
     "type": "object",
     "title": "Tree view strategies",
     "properties": {
+      "showProjectName": {
+        "type": "string",
+        "title": "Text for project name",
+        "default": "host",
+        "enum": ["/", "host", "hostName", "remote"],
+        "order": 1
+      },
       "hideLocalWhenDisplayed": {
         "type": "boolean",
         "title": "Hide Local When Displayed",
         "description": "",
         "default": false,
-        "order": 1
+        "order": 2
       },
       "showViewOnStartup": {
         "type": "boolean",
         "title": "Show View On Startup",
         "description": "Every startup show View",
         "default": true,
-        "order": 2
+        "order": 3
       },
       "showHiddenFiles": {
         "type": "boolean",
         "title": "Show Hidden Files",
         "description": "Show hidden files in View",
         "default": true,
-        "order": 3
+        "order": 4
       },
       "useDockIntegration": {
         "type": "boolean",
         "title": "Use Dock Integration",
         "description": "Remove oldschool Panel and use Pane in Docks. Only available from Atom 1.17.0",
         "default": false,
-        "order": 4
+        "order": 5
       }
     },
     "order": 2

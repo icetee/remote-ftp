@@ -30,14 +30,18 @@
 	}
 
 	> .offline {
-		> ul {
+		.remote-ftp-offline-inner {
 			width: 100%;
-			padding: 10px;
-			list-style-type: none;
-
-			> li a {
+			
+			> ul {
 				width: 100%;
-				margin-bottom: 5px;
+				padding: 10px;
+				list-style-type: none;
+
+				> li a {
+					width: 100%;
+					margin-bottom: 5px;
+				}
 			}
 		}
 	}
@@ -160,10 +164,26 @@
 		z-index: 3;
 		opacity: 0.8;
 		display: flex;
+		flex-direction: column;
 		-webkit-box-align: center;
 		align-items: center;
 		text-align: center;
 		justify-content: center;
+
+        .remote-ftp-picto {
+            margin-bottom: 15px;
+
+            > .icon {
+                display: block;
+
+                &::before {
+					font-size: 76px;
+				    width: 100%;
+				    height: 100%;
+				    line-height: normal;
+                }
+            }
+        }
 	}
 
 }
