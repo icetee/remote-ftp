@@ -1,25 +1,30 @@
 # See https://atom.io/docs/latest/creating-a-package#menus for more details
 'context-menu':
   '.tree-view.full-menu, .tree-view .full-menu': [
+      { type: 'separator' },
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' }
     ]
   '.tree-view.multi-select, .tree-view .multi-select': [
+      { type: 'separator' },
       { label: 'Upload', command: 'remote-ftp:upload-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected-local' },
-      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' }
+      { label: 'Sync local -> remote', command: 'remote-ftp:sync-with-local' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' }
     ]
   '.remote-ftp-view .list-tree.full-menu, .remote-ftp-view .list-tree .full-menu': [
       { label: 'Add File', command: 'remote-ftp:add-file' },
       { label: 'Add Folder', command: 'remote-ftp:add-folder' },
-      { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
-      { label: 'Disconnect', command: 'remote-ftp:disconnect' },
       { label: 'Rename', command: 'remote-ftp:move-selected' },
-      { label: 'Delete', command: 'remote-ftp:delete-selected' },
       { label: 'Download', command: 'remote-ftp:download-selected' },
+      { label: 'Refresh', command: 'remote-ftp:refresh-selected' },
+      { label: 'Permissions', command: 'remote-ftp:permission-selected' },
       { label: 'Sync local <- remote', command: 'remote-ftp:sync-with-remote' },
-      { label: 'Hide', command: 'remote-ftp:toggle' }
+      { label: 'Delete', command: 'remote-ftp:delete-selected' },
+      { label: 'Toggle Tree', command: 'remote-ftp:toggle' },
+      { label: 'Disconnect', command: 'remote-ftp:disconnect' }
     ]
   '.remote-ftp-view .list-tree.multi-select, .remote-ftp-view .list-tree .multi-select': [
       { label: 'Download', command: 'remote-ftp:download-selected' },
