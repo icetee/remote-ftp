@@ -317,13 +317,32 @@
 	}
 }
 
+.statusbar-view-tooltip.remote-ftp.tooltip {
+
+	.tooltip-arrow {
+    	border-top-color: @base-border-color;
+	}
+
+	.tooltip-inner {
+		background-color: @base-border-color;
+		box-sizing: border-box;
+		padding-left: 10px;
+		padding-right: 10px;
+
+		.inner {
+			background-color: @base-background-color;
+		}
+
+		hr.vh {
+		    transform: rotate(90deg);
+		    margin: 0;
+		    line-height: normal;
+		    width: 15px;
+		    border: 1px solid @input-background-color;
+		}
+	}
+}
+
 .statusbar-view.remote-ftp {
   display: inline-block;
-
-  &.tooltip {
-    width: 400px;
-    padding-left: 10px;
-    padding-right: 10px;
-    box-sizing: border-box;
-  }
 }

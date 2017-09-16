@@ -62,6 +62,35 @@
     },
     "order": 2
   },
+  "statusbar": {
+    "type": "object",
+    "title": "Statusbar strategies",
+    "properties": {
+      "enable": {
+          "type": "boolean",
+          "title": "Enable Statusbar",
+          "description": "Show icon in statusbar",
+          "default": true,
+          "order": 1
+      },
+      "position": {
+        "type": "string",
+        "enum": ["left", "right"],
+        "title": "Set side display",
+        "description": "You can set which side to display",
+        "default": "left",
+        "order": 2
+      },
+      "priority": {
+        "type": "number",
+        "title": "Priority",
+        "description": "This can be used to adjust the position",
+        "default": -1010,
+        "order": 3
+      }
+    },
+    "order": 3
+  },
   "context": {
     "type": "object",
     "title": "Context menu strategies",
@@ -74,7 +103,7 @@
         "order": 1
       }
     },
-    "order": 3
+    "order": 4
   },
   "notifications": {
     "type": "object",
@@ -95,7 +124,7 @@
         "order": 2
       }
     },
-    "order": 4
+    "order": 5
   },
   "beta": {
     "type": "object",
@@ -108,7 +137,7 @@
           "order": 1
         }
     },
-    "order": 5
+    "order": 6
   },
   "dev": {
     "type": "object",
@@ -122,6 +151,6 @@
           "order": 1
         }
     },
-    "order": 6
+    "order": 7
   }
 }
