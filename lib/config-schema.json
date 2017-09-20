@@ -75,9 +75,9 @@
     "properties": {
       "enable": {
           "type": "boolean",
-          "title": "Enable Statusbar",
+          "title": "Enable Statusbar ⚠ She has no role yet ⚠",
           "description": "Show icon in statusbar",
-          "default": true,
+          "default": false,
           "order": 1
       },
       "position": {
