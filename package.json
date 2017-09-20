@@ -7,12 +7,17 @@
   "repository": "https://github.com/icetee/remote-ftp",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.204.0 <2.0.0"
+    "atom": ">=1.0 <2.0.0"
   },
   "consumedServices": {
     "file-icons.element-icons": {
       "versions": {
         "1.0.0": "consumeElementIcons"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
       }
     }
   },
