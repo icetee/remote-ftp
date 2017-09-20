@@ -58,6 +58,13 @@
         "description": "Remove oldschool Panel and use Pane in Docks. Only available from Atom 1.17.0",
         "default": false,
         "order": 5
+      },
+      "enableDragAndDrop": {
+        "type": "boolean",
+        "title": "Enable Drag and Drop",
+        "description": "Interactive method can be blocked",
+        "default": true,
+        "order": 6
       }
     },
     "order": 2
