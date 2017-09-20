@@ -145,3 +145,5 @@ Help us bring this project to the moon! Atom's rocket needs to get somewhere, ri
 [@thorstenhirsch](https://github.com/thorstenhirsch)
 [@ilessiivi](https://github.com/ilessiivi)
 [@lioutikov](https://github.com/lioutikov)
+[@zlibra](https://github.com/zlibra)  
+[@maxswjeon](https://github.com/maxswjeon)  
