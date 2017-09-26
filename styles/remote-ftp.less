@@ -5,187 +5,213 @@
 @import "ui-variables";
 
 .remote-ftp-view {
-	position: relative;
-	width: 200px;
-	height: 100%;
-	overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 100%;
+  overflow: hidden;
 
-    &[data-use-dock-integration="true"] {
-        width: 100% !important;
+  .tab-bar:not(.show) {
+    display: none;
+  }
 
-        > .resize-handle {
-            display: none;
-        }
+  &[data-use-dock-integration="true"] {
+    width: 100% !important;
+
+    > .resize-handle {
+      display: none;
     }
 
-	> .resize-handle {
-		position: absolute;
-		top: 0;
-		bottom: 0;
-		right: -5px;
-		z-index: 10;
-		display: block;
-		width: 10px;
-		//cursor: e-resize;
-	}
+    .tab-bar {
+      display: none !important;
+    }
+  }
 
-	> .offline {
-		.remote-ftp-offline-inner {
-			width: 100%;
+  &[data-use-dock-integration="false"]:not(.oldversion) {
+    .tab-bar:not(.show) {
+      display: none !important;
+    }
 
-			> ul {
-				width: 100%;
-				padding: 10px;
-				list-style-type: none;
+    .tab-bar {
+      box-shadow: none;
 
-				> li a {
-					width: 100%;
-					margin-bottom: 5px;
-				}
-			}
-		}
-	}
+      li.tab {
+        width: 100%;
+        box-shadow: none;
+        color: @text-color-highlight;
+      }
+    }
 
-	> .scroller {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 27px;
-		display: block;
-		overflow: auto;
+    > .scroller {
+      top: 30px !important;
+    }
+  }
 
-		> .list-tree {
-			min-height: 100%;
-			width: auto;
-			min-width: -webkit-min-content;
-			padding-left: 5px;
-			padding-right: 10px;
-		}
-	}
+  > .resize-handle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -5px;
+    z-index: 10;
+    display: block;
+    width: 10px;
+    //cursor: e-resize;
+  }
 
-	.project-root.project-root > .header .name {
-		line-height: 2.5em;
-	}
+  > .offline {
+    .remote-ftp-offline-inner {
+      width: 100%;
 
-	> .queue {
-		position: absolute;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		display: block;
-		height: 27px;
+      > ul {
+        width: 100%;
+        padding: 10px;
+        list-style-type: none;
 
-		> .progress {
-			display: none;
-			width: auto;
-			height: auto;
-			border-radius: 0;
-			border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-			list-style: none;
-			margin: 0 0 2px 0;
-			padding: 0;
-
-			> li {
-				display: flex;
-				margin: 0;
-				padding: 4px 8px;
-				font-size: 11px;
-				line-height: 18px;
-
-				flex-wrap: nowrap;
-				flex-direction: row;
-				justify-content: flex-start;
-
-				progress {
-					flex: none;
-					width: 50px;
-				}
-
-				.name {
-					width: 100%;
-					white-space: nowrap;
-					overflow: hidden;
-					text-overflow: ellipsis;
-					text-align: left;
-				}
-
-				.eta {
-					flex: none;
-					white-space: nowrap;
-					text-align: right;
-				}
-			}
-		}
-
-		> .list {
-			display: block;
-			list-style: none;
-			margin: 0;
-			padding: 0;
-
-			> li {
-				display: block;
-				margin: 0;
-				padding: 2px 8px;
-				line-height: 10px;
-				font-size: 10px;
-				white-space: nowrap;
-				overflow: hidden;
-				text-overflow: ellipsis;
-			}
-
-			> li:first-of-type {
-				padding-top: 4px;
-				padding-bottom: 4px;
-				font-size: 11px;
-				line-height: 18px;
-			}
-		}
-
-		> .resize-handle {
-			position: absolute;
-			top: -5px;
-			left: 0;
-			right: 0;
-			z-index: 10;
-			display: block;
-			height: 10px;
-			cursor: n-resize;
-		}
-	}
-
-	> .offline {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		bottom: 0;
-		z-index: 3;
-		opacity: 0.8;
-		display: flex;
-		flex-direction: column;
-		-webkit-box-align: center;
-		align-items: center;
-		text-align: center;
-		justify-content: center;
-
-        .remote-ftp-picto {
-            margin-bottom: 15px;
-
-            > .icon {
-                display: block;
-
-                &::before {
-					font-size: 76px;
-				    width: 100%;
-				    height: 100%;
-				    line-height: normal;
-                }
-            }
+        > li a {
+          width: 100%;
+          margin-bottom: 5px;
         }
-	}
+      }
+    }
+  }
 
+  > .scroller {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 27px;
+    display: block;
+    overflow: auto;
+
+    > .list-tree {
+      min-height: 100%;
+      width: auto;
+      min-width: -webkit-min-content;
+      padding-left: 5px;
+      padding-right: 10px;
+    }
+  }
+
+  .project-root.project-root > .header .name {
+    line-height: 2.5em;
+  }
+
+  > .queue {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+    height: 27px;
+
+    > .progress {
+      display: none;
+      width: auto;
+      height: auto;
+      border-radius: 0;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+      list-style: none;
+      margin: 0 0 2px;
+      padding: 0;
+
+      > li {
+        display: flex;
+        margin: 0;
+        padding: 4px 8px;
+        font-size: 11px;
+        line-height: 18px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: flex-start;
+
+        progress {
+          flex: none;
+          width: 50px;
+        }
+
+        .name {
+          width: 100%;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          text-align: left;
+        }
+
+        .eta {
+          flex: none;
+          white-space: nowrap;
+          text-align: right;
+        }
+      }
+    }
+
+    > .list {
+      display: block;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+
+      > li {
+        display: block;
+        margin: 0;
+        padding: 2px 8px;
+        line-height: 10px;
+        font-size: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      > li:first-of-type {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        font-size: 11px;
+        line-height: 18px;
+      }
+    }
+
+    > .resize-handle {
+      position: absolute;
+      top: -5px;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      display: block;
+      height: 10px;
+      cursor: n-resize;
+    }
+  }
+
+  > .offline {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    .remote-ftp-picto {
+      margin-bottom: 15px;
+
+      > .icon {
+        display: block;
+
+        &::before {
+          font-size: 76px;
+          width: 100%;
+          height: 100%;
+          line-height: normal;
+        }
+      }
+    }
+  }
 }
 
 .ftptree-view-resizer {
@@ -199,12 +225,19 @@
   z-index: 2;
   display: flex;
   flex-direction: column;
-
   // use these classes to re-order
   // using a value in-between is fine too, e.g. order: -3;
-  & > .order--start  { order: -10; }
-  & > .order--center { order:   0; }
-  & > .order--end    { order:  10; }
+  & > .order--start {
+    order: -10;
+  }
+
+  & > .order--center {
+    order: 0;
+  }
+
+  & > .order--end {
+    order: 10;
+  }
 
   .ftptree-view-resize-handle {
     position: absolute;
@@ -229,7 +262,7 @@
 }
 
 .pane .ftptree-view-resizer {
-    width: 100%;
+  width: 100%;
 }
 
 .ftptree-view-scroller {
@@ -266,8 +299,8 @@
   }
 
   .project-root {
-	&:before {
-	  height: 2.5em !important;
+    &:before {
+      height: 2.5em !important;
     }
   }
 }
@@ -281,66 +314,63 @@
 }
 
 .modal {
-    .remote-ftp {
-    	&.permission-view {
-            margin-bottom: 8.5px;
+  .remote-ftp {
+    &.permission-view {
+      margin-bottom: 8.5px;
 
-			> div {
-			    padding: 0 10px;
-			}
+      > div {
+        padding: 0 10px;
+      }
 
-            .permissions-wrapper {
-                display: flex;
-                 > div {
-                    display: flex;
-                    flex-direction: column;
-                    margin: auto;
+      .permissions-wrapper {
+        display: flex;
 
-                    .inline-block {
-                        margin-right: 10px;
-                        margin-bottom: 4px;
-                        margin-top: 4px;
-                        margin: 4px 10px 4px 0;
-                    }
-                }
-            }
+        > div {
+          display: flex;
+          flex-direction: column;
+          margin: auto;
 
-			.permissions-wrapper-block {
-				margin-top: 10px;
-			}
+          .inline-block {
+            margin: 4px 10px 4px 0;
+          }
+        }
+      }
 
-            .permission-chown {
-				display: block;
-    			padding-top: 20px;
-            }
-    	}
-	}
+      .permissions-wrapper-block {
+        margin-top: 10px;
+      }
+
+      .permission-chown {
+        display: block;
+        padding-top: 20px;
+      }
+    }
+  }
 }
 
 .statusbar-view-tooltip.remote-ftp.tooltip {
+  .tooltip-arrow {
+    border-top-color: @base-border-color;
+  }
 
-	.tooltip-arrow {
-    	border-top-color: @base-border-color;
-	}
+  .tooltip-inner {
+    background-color: @base-border-color;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
 
-	.tooltip-inner {
-		background-color: @base-border-color;
-		box-sizing: border-box;
-		padding-left: 10px;
-		padding-right: 10px;
+    .inner {
+      background-color: @base-background-color;
+    }
 
-		.inner {
-			background-color: @base-background-color;
-		}
-
-		hr.vh {
-		    transform: rotate(90deg);
-		    margin: 0;
-		    line-height: normal;
-		    width: 15px;
-		    border: 1px solid @input-background-color;
-		}
-	}
+    hr.vh {
+      transform: rotate(90deg);
+      margin: 0;
+      line-height: normal;
+      width: 15px;
+      border: 1px solid @input-background-color;
+    }
+  }
 }
 
 .statusbar-view.remote-ftp {
