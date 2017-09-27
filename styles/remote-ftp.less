@@ -97,8 +97,14 @@
     }
   }
 
-  .project-root.project-root > .header .name {
-    line-height: 2.5em;
+  .project-root.project-root > .header {
+    &::before {
+        line-height: 2.5em !important;
+    }
+
+    .name {
+        line-height: 2.5em;
+    }
   }
 
   > .queue {
