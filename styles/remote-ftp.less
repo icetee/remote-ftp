@@ -344,17 +344,28 @@
           .inline-block {
             margin: 4px 10px 4px 0;
           }
+
+          &.permission-chown {
+            display: block;
+            padding-top: 20px;
+            height: 140px;
+
+            atom-text-editor {
+              min-width: 140px;
+            }
+          }
         }
+
       }
 
       .permissions-wrapper-block {
         margin-top: 10px;
       }
-
-      .permission-chown {
-        display: block;
-        padding-top: 20px;
-      }
     }
   }
+}
+
+/* NOTE: Fix modal overlay */
+.tooltip {
+  z-index: 10000;
 }
