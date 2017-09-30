@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [1.2.0] - 2017-09-30
+
 ## Fixed
 + Fix .ftpconfig ENOENT issue
 + Add usable notifications [#896](https://github.com/icetee/remote-ftp/issues/896) [#112](https://github.com/icetee/remote-ftp/issues/112) [#373](https://github.com/icetee/remote-ftp/issues/873) [#434](https://github.com/icetee/remote-ftp/issues/434)
@@ -15,13 +17,14 @@
 + Fix memory leaks on save [#908](https://github.com/icetee/remote-ftp/issues/908)
 + Add (old school) method for check file type (if no available MLSD example IIS) [19e1738](https://github.com/icetee/remote-ftp/commit/19e17383d20a0079ec50ad67d35fd8a55b79c62a)
 + Fix duplication connect (when reconnected)
++ 🎨 Fix root icon position
 
 ## Featured
 + Supported UTF-8 filename in File-tree [#919](https://github.com/icetee/remote-ftp/issues/919)
 + Supported unix path style for privatekey [#216](https://github.com/icetee/remote-ftp/issues/216)
 + Supported IPv6 [#949](https://github.com/icetee/remote-ftp/issues/949)
-+ Supported changes to permission [#685](https://github.com/icetee/remote-ftp/issues/685)
-+ Supported Drag & Drop (only move on a server)
++ Supported changes to permission and owner [#685](https://github.com/icetee/remote-ftp/issues/685)
++ Supported Drag & Drop (only move on a server) [BETA]
 
 ## Changed
 + Add `.ftpignore` documentation
@@ -47,6 +50,7 @@
 + Remove isAlreadyExits notification [a8019ff](https://github.com/icetee/remote-ftp/commit/a8019ff6449835383739851736d0f453c0fd8f78)
 + Implemented `SITE` method
 + Modify context-menu sequence [c68464b](https://github.com/icetee/remote-ftp/commit/c68464b2d9eb08aaf50e99065cea0e9b7b81a99e)
++ 🎨 Design if no use dock integration
 
 ## [1.1.4] - 2017-07-30 [CANCELED]
 
