@@ -1,7 +1,7 @@
 {
   "name": "Remote-FTP",
   "main": "./lib/remote-ftp",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
   "activationCommands": [],
   "repository": "https://github.com/icetee/remote-ftp",
@@ -17,7 +17,7 @@
     }
   },
   "dependencies": {
-    "@icetee/ftp": "^0.3.14",
+    "@icetee/ftp": "^0.3.15",
     "atom-space-pen-views": "^2.2.0",
     "chokidar": "^1.6.1",
     "event-kit": "^2.3.0",
