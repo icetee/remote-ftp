@@ -4,6 +4,7 @@
 
 ## Fixed
 + Fix no property replace in .ftpconfig (remote option)
++ Supported backslash filename, foldername in UNIX system #1021
 
 ## Changed
 + Add keyboardInteractiveForPass options
