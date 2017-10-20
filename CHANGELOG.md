@@ -3,6 +3,37 @@
 ## [Unreleased]
 
 ## Fixed
++ Fix no property replace in .ftpconfig (remote option)
+
+## Changed
++ Add keyboardInteractiveForPass options
+
+## [1.2.5] - 2017-10-11
+
+## Fixed
++ Change pane title #1012
++ Fix connect without password #1004
++ Supported resolve homedir in SSH config
+
+## [1.2.4] - 2017-10-05
+
+## Fixed
++ Resolve #992
+
+## [1.2.3] - 2017-10-05
+
+## Fixed
++ Add not implemented info for #993
++ Fixed #995
+
+## [1.2.2] - 2017-10-04
+
+## Fixed
++ Add check features method #992
+
+## [1.2.0] - 2017-09-30
+
+## Fixed
 + Fix .ftpconfig ENOENT issue
 + Add usable notifications [#896](https://github.com/icetee/remote-ftp/issues/896) [#112](https://github.com/icetee/remote-ftp/issues/112) [#373](https://github.com/icetee/remote-ftp/issues/873) [#434](https://github.com/icetee/remote-ftp/issues/434)
 + Add `ssh-agent` documentation [#849](https://github.com/icetee/remote-ftp/issues/849) (Thanks [@zlibra](https://github.com/zlibra), [@BenKennish](https://github.com/BenKennish))
