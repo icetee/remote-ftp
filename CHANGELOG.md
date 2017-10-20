@@ -2,6 +2,12 @@
 
 ## [Unreleased]
 
+## Fixed
++ Fix no property replace in .ftpconfig (remote option)
+
+## Changed
++ Add keyboardInteractiveForPass options
+
 ## [1.2.5] - 2017-10-11
 
 ## Fixed
