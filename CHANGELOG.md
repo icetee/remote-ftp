@@ -2,9 +2,12 @@
 
 ## [Unreleased]
 
+## [1.2.6] - 2017-10-21
+
 ## Fixed
 + Fix no property replace in .ftpconfig (remote option)
-+ Supported backslash filename, foldername in UNIX system #1021
++ Supported backslash filename, foldername in UNIX system [#1021](https://github.com/icetee/remote-ftp/issues/1021)
++ Remove MLSD [#997](https://github.com/icetee/remote-ftp/issues/997) [#1000](https://github.com/icetee/remote-ftp/issues/1000) [#1006](https://github.com/icetee/remote-ftp/issues/1006) [#1007](https://github.com/icetee/remote-ftp/issues/1007) [#1011](https://github.com/icetee/remote-ftp/issues/1011) [#1016](https://github.com/icetee/remote-ftp/issues/1016) [#1018](https://github.com/icetee/remote-ftp/issues/1018) [#1022](https://github.com/icetee/remote-ftp/issues/1022) [#1024](https://github.com/icetee/remote-ftp/issues/1024) [#1025](https://github.com/icetee/remote-ftp/issues/1025)
 
 ## Changed
 + Add keyboardInteractiveForPass options
@@ -12,25 +15,25 @@
 ## [1.2.5] - 2017-10-11
 
 ## Fixed
-+ Change pane title #1012
-+ Fix connect without password #1004
++ Change pane title [#1012](https://github.com/icetee/remote-ftp/issues/1012)
++ Fix connect without password [#1004](https://github.com/icetee/remote-ftp/issues/1004)
 + Supported resolve homedir in SSH config
 
 ## [1.2.4] - 2017-10-05
 
 ## Fixed
-+ Resolve #992
++ Resolve [#992](https://github.com/icetee/remote-ftp/issues/992)
 
 ## [1.2.3] - 2017-10-05
 
 ## Fixed
-+ Add not implemented info for #993
-+ Fixed #995
++ Add not implemented info for [#993](https://github.com/icetee/remote-ftp/issues/993)
++ Fixed [#995](https://github.com/icetee/remote-ftp/issues/995)
 
 ## [1.2.2] - 2017-10-04
 
 ## Fixed
-+ Add check features method #992
++ Add check features method [#992](https://github.com/icetee/remote-ftp/issues/992)
 
 ## [1.2.0] - 2017-09-30
 
