@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## Fixed
++ Fix Download command from Project tab [#1023](https://github.com/icetee/remote-ftp/issues/1023)
+
 ## [1.2.6] - 2017-10-21
 
 ## Fixed
