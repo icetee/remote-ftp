@@ -2,8 +2,21 @@
 
 ## [Unreleased]
 
+## [1.3.0] - 2017-11-03
+
+## Featured
++ Supported multiple selection [#492](https://github.com/icetee/remote-ftp/issues/492) [#970](https://github.com/icetee/remote-ftp/issues/970)
+
 ## Fixed
 + Fix Download command from Project tab [#1023](https://github.com/icetee/remote-ftp/issues/1023)
++ Supported ignore Sync local and Download [#972](https://github.com/icetee/remote-ftp/issues/972)
++ Fixed multiple connection on closed (ECONNRESET and 421 error code)
++ Solved incorrect downloads [#1016](https://github.com/icetee/remote-ftp/issues/1016)
++ More checks ignores
+
+## Changed
++ Grammar issue [#1032](https://github.com/icetee/remote-ftp/issues/1032)
++ Remove download method in syncLocal method
 
 ## [1.2.6] - 2017-10-21
 
