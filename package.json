@@ -19,7 +19,6 @@
   "dependencies": {
     "@icetee/ftp": "^0.3.14",
     "atom-space-pen-views": "^2.2.0",
-    "chokidar": "^1.6.1",
     "event-kit": "^2.3.0",
     "fs-plus": "^3.0.1",
     "ignore": "^3.2.0",
