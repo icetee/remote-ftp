@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## Changed
++ Remove Chokidar package
++ Supported native Filesystem Watcher API [PathWatcher](https://atom.io/docs/api/latest/PathWatcher) ([@putterson](https://github.com/putterson) Thanks)
+
+## Fixed
++ Resolve undefined once method
++ Eslint issues
+
 ## [1.3.0] - 2017-11-03
 
 ## Featured
@@ -66,13 +74,14 @@
 + Fix memory leaks on save [#908](https://github.com/icetee/remote-ftp/issues/908)
 + Add (old school) method for check file type (if no available MLSD example IIS) [19e1738](https://github.com/icetee/remote-ftp/commit/19e17383d20a0079ec50ad67d35fd8a55b79c62a)
 + Fix duplication connect (when reconnected)
++ Fix root icon position
 
 ## Featured
 + Supported UTF-8 filename in File-tree [#919](https://github.com/icetee/remote-ftp/issues/919)
 + Supported unix path style for privatekey [#216](https://github.com/icetee/remote-ftp/issues/216)
 + Supported IPv6 [#949](https://github.com/icetee/remote-ftp/issues/949)
-+ Supported changes to permission [#685](https://github.com/icetee/remote-ftp/issues/685)
-+ Supported Drag & Drop (only move on a server)
++ Supported changes to permission and owner [#685](https://github.com/icetee/remote-ftp/issues/685)
++ Supported Drag & Drop (only move on a server) [BETA]
 
 ## Changed
 + Add `.ftpignore` documentation
@@ -98,6 +107,7 @@
 + Remove isAlreadyExits notification [a8019ff](https://github.com/icetee/remote-ftp/commit/a8019ff6449835383739851736d0f453c0fd8f78)
 + Implemented `SITE` method
 + Modify context-menu sequence [c68464b](https://github.com/icetee/remote-ftp/commit/c68464b2d9eb08aaf50e99065cea0e9b7b81a99e)
++ Design if no use dock integration
 
 ## [1.1.4] - 2017-07-30 [CANCELED]
 
