@@ -7,21 +7,27 @@
   "repository": "https://github.com/icetee/remote-ftp",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.204.0 <2.0.0"
+    "atom": ">=1.22.0 <2.0.0"
   },
   "consumedServices": {
     "file-icons.element-icons": {
       "versions": {
         "1.0.0": "consumeElementIcons"
       }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
     }
   },
   "dependencies": {
-    "@icetee/ftp": "^0.3.14",
+    "@icetee/ftp": "^0.3.15",
     "atom-space-pen-views": "^2.2.0",
     "event-kit": "^2.3.0",
     "fs-plus": "^3.0.1",
     "ignore": "^3.2.0",
+    "semver": "^5.4.1",
     "ssh-config": "^1.0.1",
     "ssh2": "^0.5.4",
     "ssh2-streams": "^0.1.19",

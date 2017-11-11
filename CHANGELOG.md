@@ -2,16 +2,86 @@
 
 ## [Unreleased]
 
-## [1.1.4] - 2017-07-30
+## Changed
++ Remove Chokidar package
++ Supported native Filesystem Watcher API [PathWatcher](https://atom.io/docs/api/latest/PathWatcher) ([@putterson](https://github.com/putterson) Thanks)
 
 ## Fixed
++ Resolve undefined once method
++ Eslint issues
 
-+ Supported UTF-8 filename in File-tree [#919](https://github.com/icetee/remote-ftp/issues/919)
+## [1.3.0] - 2017-11-03
+
+## Featured
++ Supported multiple selection [#492](https://github.com/icetee/remote-ftp/issues/492) [#970](https://github.com/icetee/remote-ftp/issues/970)
+
+## Fixed
++ Fix Download command from Project tab [#1023](https://github.com/icetee/remote-ftp/issues/1023)
++ Supported ignore Sync local and Download [#972](https://github.com/icetee/remote-ftp/issues/972)
++ Fixed multiple connection on closed (ECONNRESET and 421 error code)
++ Solved incorrect downloads [#1016](https://github.com/icetee/remote-ftp/issues/1016)
++ More checks ignores
+
+## Changed
++ Grammar issue [#1032](https://github.com/icetee/remote-ftp/issues/1032)
++ Remove download method in syncLocal method
+
+## [1.2.6] - 2017-10-21
+
+## Fixed
++ Fix no property replace in .ftpconfig (remote option)
++ Supported backslash filename, foldername in UNIX system [#1021](https://github.com/icetee/remote-ftp/issues/1021)
++ Remove MLSD [#997](https://github.com/icetee/remote-ftp/issues/997) [#1000](https://github.com/icetee/remote-ftp/issues/1000) [#1006](https://github.com/icetee/remote-ftp/issues/1006) [#1007](https://github.com/icetee/remote-ftp/issues/1007) [#1011](https://github.com/icetee/remote-ftp/issues/1011) [#1016](https://github.com/icetee/remote-ftp/issues/1016) [#1018](https://github.com/icetee/remote-ftp/issues/1018) [#1022](https://github.com/icetee/remote-ftp/issues/1022) [#1024](https://github.com/icetee/remote-ftp/issues/1024) [#1025](https://github.com/icetee/remote-ftp/issues/1025)
+
+## Changed
++ Add keyboardInteractiveForPass options
+
+## [1.2.5] - 2017-10-11
+
+## Fixed
++ Change pane title [#1012](https://github.com/icetee/remote-ftp/issues/1012)
++ Fix connect without password [#1004](https://github.com/icetee/remote-ftp/issues/1004)
++ Supported resolve homedir in SSH config
+
+## [1.2.4] - 2017-10-05
+
+## Fixed
++ Resolve [#992](https://github.com/icetee/remote-ftp/issues/992)
+
+## [1.2.3] - 2017-10-05
+
+## Fixed
++ Add not implemented info for [#993](https://github.com/icetee/remote-ftp/issues/993)
++ Fixed [#995](https://github.com/icetee/remote-ftp/issues/995)
+
+## [1.2.2] - 2017-10-04
+
+## Fixed
++ Add check features method [#992](https://github.com/icetee/remote-ftp/issues/992)
+
+## [1.2.0] - 2017-09-30
+
+## Fixed
 + Fix .ftpconfig ENOENT issue
 + Add usable notifications [#896](https://github.com/icetee/remote-ftp/issues/896) [#112](https://github.com/icetee/remote-ftp/issues/112) [#373](https://github.com/icetee/remote-ftp/issues/873) [#434](https://github.com/icetee/remote-ftp/issues/434)
-+ Add `ssh-agent` documentation [#849](https://github.com/icetee/remote-ftp/issues/849) (Thank [@zlibra](https://github.com/zlibra), [@BenKennish](https://github.com/BenKennish))
++ Add `ssh-agent` documentation [#849](https://github.com/icetee/remote-ftp/issues/849) (Thanks [@zlibra](https://github.com/zlibra), [@BenKennish](https://github.com/BenKennish))
 + Bad substr logic and set recursive download for 'Local < Remote' command [#918](https://github.com/icetee/remote-ftp/issues/918)
 + Add multiproject detail [#920](https://github.com/icetee/remote-ftp/issues/920)
++ Fix correct download list [#923](https://github.com/icetee/remote-ftp/issues/923)
++ Fix double click file download [#925](https://github.com/icetee/remote-ftp/issues/925)
++ Fix [#952](https://github.com/icetee/remote-ftp/issues/952) (Thanks [@lioutikov](https://github.com/lioutikov))
++ Fix keyboardInteractive dialog for Google Authenticator [#962](https://github.com/icetee/remote-ftp/issues/962) (Thanks [@maxswjeon](https://github.com/maxswjeon))
++ Fix memory leaks on save [#908](https://github.com/icetee/remote-ftp/issues/908)
++ Add (old school) method for check file type (if no available MLSD example IIS) [19e1738](https://github.com/icetee/remote-ftp/commit/19e17383d20a0079ec50ad67d35fd8a55b79c62a)
++ Fix duplication connect (when reconnected)
++ Fix root icon position
+
+## Featured
++ Supported UTF-8 filename in File-tree [#919](https://github.com/icetee/remote-ftp/issues/919)
++ Supported unix path style for privatekey [#216](https://github.com/icetee/remote-ftp/issues/216)
++ Supported IPv6 [#949](https://github.com/icetee/remote-ftp/issues/949)
++ Supported changes to permission and owner [#685](https://github.com/icetee/remote-ftp/issues/685)
++ Supported Drag & Drop (only move on a server) [BETA]
 
 ## Changed
 + Add `.ftpignore` documentation
@@ -28,6 +98,18 @@
 + Change `self` to `this` several places
 + Optimized codes
 + 🎨 Change code styles
++ Add picto to offline view
++ Configurable server label [#848](https://github.com/icetee/remote-ftp/issues/848)
++ Add Permission Denied notification
++ 🎨 There are many code beauties 🎨
++ Add `remote-ftp:download-active` command (BETA)
++ Remove log when readconfig (spamming console)
++ Remove isAlreadyExits notification [a8019ff](https://github.com/icetee/remote-ftp/commit/a8019ff6449835383739851736d0f453c0fd8f78)
++ Implemented `SITE` method
++ Modify context-menu sequence [c68464b](https://github.com/icetee/remote-ftp/commit/c68464b2d9eb08aaf50e99065cea0e9b7b81a99e)
++ Design if no use dock integration
+
+## [1.1.4] - 2017-07-30 [CANCELED]
 
 ## [1.1.3] - 2017-07-11
 
