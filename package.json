@@ -25,8 +25,8 @@
     "ignore": "^3.2.0",
     "semver": "^5.4.1",
     "ssh-config": "^1.0.1",
-    "ssh2": "^0.5.4",
-    "ssh2-streams": "^0.1.19",
+    "ssh2": "^0.5.5",
+    "ssh2-streams": "^0.1.20",
     "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
