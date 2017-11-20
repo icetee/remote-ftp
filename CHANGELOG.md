@@ -2,6 +2,21 @@
 
 ## [Unreleased]
 
+## [1.3.2] - 2017-11-20
+
+## Changed
++ Upgrade SSH2 and SSH2-streams
+
+## Fixed
++ Fix [#1029](https://github.com/icetee/remote-ftp/issues/1029)
++ Fix Cannot create icon-node for empty path [#690](https://github.com/icetee/remote-ftp/issues/690)
++ Incorrect watch notice
++ Fix path in Sync local method
++ Fix atom.project.remoteftp.once is not a function
++ Fix depth count in Windows
++ Fixed error object name in file upload
++ Fix Error: Failure [#942](https://github.com/icetee/remote-ftp/issues/942)
+
 ## [1.3.0] - 2017-11-03
 
 ## Featured
