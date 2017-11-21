@@ -99,11 +99,11 @@
 
   .project-root.project-root > .header {
     &::before {
-        line-height: 2.5em !important;
+      line-height: 2.5em !important;
     }
 
     .name {
-        line-height: 2.5em;
+      line-height: 2.5em;
     }
   }
 
@@ -355,7 +355,6 @@
             }
           }
         }
-
       }
 
       .permissions-wrapper-block {
@@ -365,36 +364,62 @@
   }
 }
 
-.statusbar-view-tooltip.remote-ftp.tooltip {
-  .tooltip-arrow {
-    border-top-color: @base-border-color;
+.RemoteFtpPopoverTooltip {
+  user-select: none;
+
+  &.tooltip {
+    width: 215px;
+    padding-left: @component-padding;
+    padding-right: @component-padding;
+    box-sizing: border-box;
+    font-size: 12px !important;
   }
 
-  .tooltip-inner {
-    background-color: @base-border-color;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
+  .tooltip-inner.tooltip-inner.tooltip-inner.tooltip-inner {
+    background-color: @tool-panel-background-color;
+    border: 1px solid @base-border-color;
+    box-shadow: 0 4px 8px hsla(0, 0, 0, .1);
+    color: @text-color;
+    max-height: 300px;
+    white-space: normal;
+    overflow-y: auto;
+    padding: 0 !important;
+  }
 
-    .inner {
-      background-color: @base-background-color;
-    }
+  &.top .tooltip-arrow.tooltip-arrow {
+    width: @component-padding;
+    height: @component-padding;
+    border-width: 0 0 1px 1px;
+    border-color: @base-border-color;
+    background-color: @tool-panel-background-color;
+    border-bottom-right-radius: 2px;
+    transform: rotate(-45deg);
+  }
 
-    hr.vh {
-      transform: rotate(90deg);
-      margin: 0;
-      line-height: normal;
-      width: 15px;
-      border: 1px solid @input-background-color;
+  .StatusBarHeader {
+    border-bottom: 1px solid @base-border-color;
+    display: flex;
+    padding: @component-padding;
+
+    div {
+      flex: auto;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
     }
+  }
+
+  .StatusBarInner {
+    display: flex;
+    padding: @component-padding;
   }
 }
 
 .statusbar-view.remote-ftp {
   display: inline-block;
 }
-
 /* NOTE: Fix modal overlay */
+
 .tooltip {
   z-index: 10000;
 }
