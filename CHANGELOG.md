@@ -2,15 +2,18 @@
 
 ## [Unreleased]
 
+## [2.0.0] - 2017-11-20
+
 ## Changed
-+ Remove Chokidar package
++ Remove Chokidar package (~150 dependencies)
 + Supported native Filesystem Watcher API [PathWatcher](https://atom.io/docs/api/latest/PathWatcher) ([@putterson](https://github.com/putterson) Thanks)
++ The new major version drop supported older Atom versions.
 
 ## Fixed
 + Resolve undefined once method
 + Eslint issues
 
-## [1.3.2] - 2017-11-20
+## [1.3.4] - 2017-11-20
 
 ## Changed
 + Upgrade SSH2 and SSH2-streams
