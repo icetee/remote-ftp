@@ -17,6 +17,7 @@
 ## Fixed
 + Drop checkFeatures and add forcePasv default value [#1060](https://github.com/icetee/remote-ftp/issues/1060)
 + Fix bug [#1069](https://github.com/icetee/remote-ftp/issues/1069) and fix download onceConnected call
++ Fix force toggled TreeView
 
 ## [2.0.0] - 2017-11-20
 
