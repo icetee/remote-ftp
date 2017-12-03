@@ -7,6 +7,7 @@
 + Save Remote TreeView location [#1068](https://github.com/icetee/remote-ftp/issues/1068)
 
 ## Changed
++ Change global variable name atom.project['remoteftp-main'] -> atom.project.remoteftpMain
 + Remove Use Dock Integration options
 + Remove old panel attach, only usable Dock Pane method
 + Remove semver
