@@ -2,6 +2,27 @@
 
 ## [Unreleased]
 
+## [2.1.0] - 2017-12-06 🎅🏻
+
+## Featured
++ Supported SFTP permissions change
++ Save Remote TreeView location [#1068](https://github.com/icetee/remote-ftp/issues/1068)
+
+## Changed
++ Change global variable name atom.project['remoteftp-main'] -> atom.project.remoteftpMain
++ Remove Use Dock Integration options
++ Remove old panel attach, only usable Dock Pane method
++ Remove semver
++ Remove showOnRightSide deprecated change event
++ Remove useDockIntegration deprecated change event
++ Remove hideLocalWhenDisplayed deprecated event
+
+## Fixed
++ Drop checkFeatures and add forcePasv default value [#1060](https://github.com/icetee/remote-ftp/issues/1060)
++ Fix bug [#1069](https://github.com/icetee/remote-ftp/issues/1069) and fix download onceConnected call
++ Fix force toggled TreeView
++ Fix crash change "Enable Drag and Drop" [#1075](https://github.com/icetee/remote-ftp/issues/1075)
+
 ## [2.0.0] - 2017-11-20
 
 ## Changed

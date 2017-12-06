@@ -10,58 +10,6 @@
   height: 100%;
   overflow: hidden;
 
-  .tab-bar:not(.show) {
-    display: none;
-  }
-
-  &[data-use-dock-integration="true"] {
-    width: 100% !important;
-
-    > .resize-handle {
-      display: none;
-    }
-
-    .tab-bar {
-      display: none !important;
-    }
-  }
-
-  &[data-use-dock-integration="false"]:not(.oldversion) {
-    .tab-bar:not(.show) {
-      display: none !important;
-    }
-
-    .tab-bar {
-      box-shadow: none;
-
-      li.tab {
-        width: 100%;
-        box-shadow: none;
-        color: @text-color-highlight;
-      }
-    }
-
-    > .scroller {
-      top: 30px !important;
-    }
-
-    .project-root::before {
-      border-top: 1px solid transparent;
-      background-clip: padding-box;
-    }
-  }
-
-  > .resize-handle {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: -5px;
-    z-index: 10;
-    display: block;
-    width: 10px;
-    //cursor: e-resize;
-  }
-
   > .offline {
     .remote-ftp-offline-inner {
       width: 100%;
@@ -249,27 +197,6 @@
   & > .order--end {
     order: 10;
   }
-
-  .ftptree-view-resize-handle {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 10px;
-    cursor: col-resize;
-    z-index: 3;
-  }
-
-  &[data-show-on-right-side='true'] {
-    .ftptree-view-resize-handle {
-      left: -5px;
-    }
-  }
-
-  &[data-show-on-right-side='false'] {
-    .ftptree-view-resize-handle {
-      right: -5px;
-    }
-  }
 }
 
 .pane .ftptree-view-resizer {
@@ -312,14 +239,6 @@
   .project-root {
     &:before {
       height: 2.5em !important;
-    }
-  }
-}
-
-.platform-win32 {
-  .ftptree-view-resizer {
-    .ftptree-view-resize-handle {
-      cursor: ew-resize;
     }
   }
 }
