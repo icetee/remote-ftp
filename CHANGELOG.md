@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.1.0] - 2017-12-06 🎅🏻
+
 ## Featured
 + Supported SFTP permissions change
 + Save Remote TreeView location [#1068](https://github.com/icetee/remote-ftp/issues/1068)
