@@ -43,6 +43,7 @@
       'submenu': [
         { label: 'Toggle', command: 'remote-ftp:toggle' },
         { label: 'Connect', command: 'remote-ftp:connect' },
+        { label: 'Settings', command: 'remote-ftp:settings-toggle' },
         { label: 'Disconnect', command: 'remote-ftp:disconnect' },
         { label: 'Navigate to', command: 'remote-ftp:navigate-to' },
         { label: 'Create ignore file', command: 'remote-ftp:create-ignore-file' },
