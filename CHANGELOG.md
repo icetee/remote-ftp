@@ -1,6 +1,8 @@
 # Change Log
 
 ## [Unreleased]
+## Fixed
++ Fix .ftpignore from being loaded " [#972](https://github.com/icetee/remote-ftp/issues/972)
 
 ## [2.1.0] - 2017-12-06 🎅🏻
 
