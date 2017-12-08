@@ -1,8 +1,13 @@
 # Change Log
 
 ## [Unreleased]
+
 ## Fixed
-+ Fix .ftpignore from being loaded " [#972](https://github.com/icetee/remote-ftp/issues/972)
++ Fix .ftpignore from being loaded [#972](https://github.com/icetee/remote-ftp/issues/972)
++ Fix "Failed to activate" destroy is undefined [#1077](https://github.com/icetee/remote-ftp/issues/1077)
+
+## Changed
++ Remove bad notifications if use ignore
 
 ## [2.1.0] - 2017-12-06 🎅🏻
 
