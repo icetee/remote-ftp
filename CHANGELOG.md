@@ -8,6 +8,8 @@
 
 ## Changed
 + Remove bad notifications if use ignore
++ Marked item if included in ignores
++ Upgrade ignore package
 
 ## [2.1.0] - 2017-12-06 🎅🏻
 
