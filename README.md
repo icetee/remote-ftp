@@ -1,4 +1,4 @@
-# Remote-FTP
+# Remote FTP
 
 FTP/FTPS/SFTP client for Atom.io
 
@@ -7,8 +7,8 @@ FTP/FTPS/SFTP client for Atom.io
 ## Getting started
 
 1. **Open** an existing **project** or create a new one (File -> Open folder...)
-2. **Open** remote-ftp **sidebar** (Packages -> Remote-FTP -> Toggle)
-3. **Create a configuration file** for your project (Packages -> Remote-FTP -> Create (s)FTP config file)
+2. **Open** remote-ftp **sidebar** (Packages -> Remote FTP -> Toggle)
+3. **Create a configuration file** for your project (Packages -> Remote FTP -> Create (s)FTP config file)
 4. Once connected you should be seeing the content of the remote connection
 5. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
 

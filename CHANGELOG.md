@@ -2,6 +2,13 @@
 
 ## [Unreleased]
 
+## [2.1.2] - 2017-12-13
+
+## Fixed
++ Supported APM package name conversion [#1066](https://github.com/icetee/remote-ftp/issues/1066) [#1081](https://github.com/icetee/remote-ftp/issues/1081)
+
+## [2.1.1] - 2017-12-10
+
 ## Fixed
 + Fix .ftpignore from being loaded [#972](https://github.com/icetee/remote-ftp/issues/972)
 + Fix "Failed to activate" destroy is undefined [#1077](https://github.com/icetee/remote-ftp/issues/1077)
