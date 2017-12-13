@@ -39,7 +39,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'Remote-FTP'
+      'label': 'Remote FTP'
       'submenu': [
         { label: 'Toggle', command: 'remote-ftp:toggle' },
         { label: 'Connect', command: 'remote-ftp:connect' },
