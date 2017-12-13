@@ -1,5 +1,5 @@
 {
-  "name": "Remote-FTP",
+  "name": "remote-ftp",
   "main": "./lib/remote-ftp",
   "version": "2.1.1",
   "description": "Enable browsing remote FTP/FTPS/SFTP just like the built-in Tree View. Requires a project.",
