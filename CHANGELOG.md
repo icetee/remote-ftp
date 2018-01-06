@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-## [2.1.3] - 2018-01-06
+## [2.1.4] - 2018-01-06
 
 ## Changed
 + Change default SFTP port
