@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## [2.1.3] - 2018-01-06
+
+## Changed
++ Change default SFTP port
++ Add `isGenericUploadError` in notifications [#1083](https://github.com/icetee/remote-ftp/pull/1083)
+
+## Fixed
++ Remove “Could not get project path.” notification [#860](https://github.com/icetee/remote-ftp/issues/860)
++ Uncaught TypeError: Cannot read property 'emit' of undefined [#1100](https://github.com/icetee/remote-ftp/issues/1100)
+
 ## [2.1.2] - 2017-12-13
 
 ## Fixed
