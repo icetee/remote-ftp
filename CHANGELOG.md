@@ -2,6 +2,9 @@
 
 ## [Unreleased]
 
+## Changed
++ Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/pull/1140)
+
 ## [2.1.3] - 2018-01-06
 
 ## Changed
