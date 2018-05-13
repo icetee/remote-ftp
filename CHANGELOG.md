@@ -4,6 +4,11 @@
 
 ## Changed
 + Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/pull/1140)
++ Remove `resize-handle` methods
++ Adapt to new tree-view design
+
+## Fixed
++ Keypress up/down move in folder
 
 ## [2.1.3] - 2018-01-06
 
