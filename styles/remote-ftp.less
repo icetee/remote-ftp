@@ -178,7 +178,7 @@
   flex-direction: column;
 
   &:focus {
-    .selected {
+    .selected.directory {
       &:before {
         background-color: @button-background-color-selected;
       }
@@ -187,6 +187,13 @@
         background-color: @button-background-color-selected;
         color: @text-color-selected;
       }
+    }
+  }
+
+  .selected.project-root {
+    > .header {
+      background-color: @background-color-selected;
+      color: @text-color-highlight;
     }
   }
 
