@@ -130,6 +130,8 @@
       right: 0;
       top: 5px;
       cursor: pointer;
+      padding-left: 4px;
+      background-color: @tree-view-background-color;
     }
   }
 
@@ -182,9 +184,15 @@
   flex-direction: column;
 
   &:focus {
-    .selected.directory {
+    .selected.entry {
       &:before {
         background-color: @button-background-color-selected;
+      }
+
+      color: @text-color-selected;
+
+      > .header {
+        color: @text-color-selected;
       }
 
       .project-root-header {
