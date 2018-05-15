@@ -22,8 +22,9 @@
     }
   },
   "dependencies": {
-    "@icetee/ftp": "^0.3.15",
+    "@icetee/ftp": "^1.0.2",
     "atom-space-pen-views": "^2.2.0",
+    "cson-parser": "^3.0.0",
     "event-kit": "^2.3.0",
     "fs-plus": "^3.0.1",
     "ignore": "^3.3.7",

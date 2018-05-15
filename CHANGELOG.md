@@ -2,6 +2,16 @@
 
 ## [Unreleased]
 
+## Changed
++ Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/pull/1140)
++ Remove `resize-handle` methods
++ Adapt to new tree-view design
++ Supported Drag & Drop download, upload
++ Add `.ftpconfig.cson` name to ftpignore
+
+## Fixed
++ Keypress up/down move in folder
+
 ## [2.1.4] - 2018-01-06
 
 ## Changed
