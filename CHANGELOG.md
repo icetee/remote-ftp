@@ -3,7 +3,7 @@
 ## [Unreleased]
 
 ## Changed
-+ Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/pull/1140)
++ Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/issues/1140)
 + Remove `resize-handle` methods
 + Adapt to new tree-view design
 + Supported Drag & Drop download, upload
@@ -11,6 +11,7 @@
 
 ## Fixed
 + Keypress up/down move in folder
++ Improve the dock pane visibility [#1137](https://github.com/icetee/remote-ftp/issues/1137)
 
 ## [2.1.4] - 2018-01-06
 
