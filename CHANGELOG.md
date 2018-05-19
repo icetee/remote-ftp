@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.2.0] - 2018-05-19
+
 ## Changed
 + Supported .cson config file [#1140](https://github.com/icetee/remote-ftp/issues/1140)
 + Remove `resize-handle` methods
