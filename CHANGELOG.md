@@ -12,6 +12,7 @@
 ## Fixed
 + Keypress up/down move in folder
 + Improve the dock pane visibility [#1137](https://github.com/icetee/remote-ftp/issues/1137)
++ Asterisk problem solved [#1062](https://github.com/icetee/remote-ftp/issues/1062)
 
 ## [2.1.4] - 2018-01-06
 
