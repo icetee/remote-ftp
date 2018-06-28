@@ -22,12 +22,12 @@
     }
   },
   "dependencies": {
-    "@icetee/ftp": "^1.0.2",
+    "@icetee/ftp": "^1.0.3",
     "atom-space-pen-views": "^2.2.0",
     "cson-parser": "^3.0.0",
     "event-kit": "^2.3.0",
     "fs-plus": "^3.0.1",
-    "ignore": "^3.3.7",
+    "ignore": "^4.0.2",
     "opencollective": "^1.0.3",
     "ssh-config": "^1.0.1",
     "ssh2": "^0.5.5",
