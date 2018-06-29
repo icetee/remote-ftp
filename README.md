@@ -54,9 +54,9 @@ There are some settings hidden in the package preferences!
     "keyboardInteractive": false, // boolean - Set to true for enable verifyCode dialog. Keyboard interaction authentication mechanism. For example using Google Authentication (Multi factor)
     "keyboardInteractiveForPass": false, // boolean - Set to true for enable keyboard interaction and use pass options for password. No open dialog.
     "watch":[ // array - Paths to files, directories, or glob patterns that are watched and when edited outside of the atom editor are uploaded. Default : []
-        "./dist/stylesheets/main.css", // reference from the root of the project.
-        "./dist/stylesheets/",
-        "./dist/stylesheets/*.css"
+        "dist/stylesheets/main.css", // reference from the root of the project.
+        "dist/stylesheets/",
+        "dist/stylesheets/*.css"
     ],
     "watchTimeout":500, // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
     "filePermissions":"0644" // string - Permissions for uploaded files. WARNING: if this option is set, previously set permissions on the remote are overwritten!
@@ -80,9 +80,9 @@ There are some settings hidden in the package preferences!
     "pasvTimeout": 10000, // integer - How long (in milliseconds) to wait for a PASV data connection to be established. Default: 10000
     "keepalive": 10000, // integer - How often (in milliseconds) to send a 'dummy' (NOOP) command to keep the connection alive. Default: 10000\. If set to 0, keepalive is disabled.
     "watch":[ // array - Paths to files, directories, or glob patterns that are watched and when edited outside of the atom editor are uploaded. Default : []
-        "./dist/stylesheets/main.css", // reference from the root of the project.
-        "./dist/stylesheets/",
-        "./dist/stylesheets/*.css"
+        "dist/stylesheets/main.css", // reference from the root of the project.
+        "dist/stylesheets/",
+        "dist/stylesheets/*.css"
     ],
     "watchTimeout":500 // integer - The duration ( in milliseconds ) from when the file was last changed for the upload to begin.
 }
