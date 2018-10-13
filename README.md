@@ -14,6 +14,8 @@ FTP/FTPS/SFTP client for Atom.io
 4. Once connected you should be seeing the content of the remote connection
 5. **All** basic **commands** (`connect`, `disconnect`, ...) are **available from** the **sidebar context menu** and the Command Palette
 
+Tip: **Create an ignore file** to prevent your sensitive information from getting synced to your host (Packages -> Remote FTP -> Create ignore file)
+
 ## Keyboard shortcuts
 
 We all know that some handy commands can make our daily task easier, this are meant to do that, be aware that the action of any of them could overwrite or be over written by any other plugin.
