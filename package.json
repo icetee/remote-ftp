@@ -28,7 +28,6 @@
     "event-kit": "^2.3.0",
     "fs-plus": "^3.0.1",
     "ignore": "^4.0.2",
-    "opencollective": "^1.0.3",
     "ssh-config": "^1.0.1",
     "ssh2": "^0.6.1",
     "ssh2-streams": "^0.2.0",
@@ -40,12 +39,5 @@
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-jsx-a11y": "^6.0.2",
     "eslint-plugin-react": "^7.1.0"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/remote-ftp"
-  },
-  "scripts": {
-    "postinstall": "opencollective postinstall"
   }
 }
