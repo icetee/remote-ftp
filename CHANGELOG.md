@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+## Changed
++ Remove Open Collective [#1220](https://github.com/icetee/remote-ftp/issues/1220)
++ Upgrade npm packages
+
+## Fixed
++ More accurate element search [#1213](https://github.com/icetee/remote-ftp/issues/1213)
++ Sometimes did not sync the root folder in the 'Sync local <- remote' command
+
 ## [2.2.0] - 2018-05-19
 
 ## Changed
