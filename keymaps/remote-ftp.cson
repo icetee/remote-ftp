@@ -3,3 +3,10 @@
   'ctrl-alt-d': 'remote-ftp:disconnect'
   'ctrl-alt-c': 'remote-ftp:connect'
   'cmd-shift-u': 'remote-ftp:upload-selected'
+
+'.remote-ftp-view':
+  'a': 'remote-ftp:add-file'
+  'shift-a': 'remote-ftp:add-folder'
+  'd': 'remote-ftp:move-selected'
+  'delete': 'remote-ftp:delete-selected'
+  'backspace': 'remote-ftp:delete-selected'

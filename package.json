@@ -25,27 +25,19 @@
     "@icetee/ftp": "^1.0.3",
     "atom-space-pen-views": "^2.2.0",
     "cson-parser": "^3.0.0",
-    "event-kit": "^2.3.0",
-    "fs-plus": "^3.0.1",
-    "ignore": "^4.0.2",
-    "opencollective": "^1.0.3",
+    "event-kit": "^2.5.3",
+    "fs-plus": "^3.0.2",
+    "ignore": "^4.0.6",
     "ssh-config": "^1.0.1",
-    "ssh2": "^0.5.5",
-    "ssh2-streams": "^0.1.20",
+    "ssh2": "^0.6.1",
+    "ssh2-streams": "^0.2.0",
     "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
-    "eslint": "^4.2.0",
+    "eslint": "^4.19.1",
     "eslint-config-airbnb": "^15.0.2",
-    "eslint-plugin-import": "^2.7.0",
-    "eslint-plugin-jsx-a11y": "^6.0.2",
-    "eslint-plugin-react": "^7.1.0"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/remote-ftp"
-  },
-  "scripts": {
-    "postinstall": "opencollective postinstall"
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1"
   }
 }
