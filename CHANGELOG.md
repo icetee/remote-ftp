@@ -5,8 +5,14 @@
 ## Changed
 + Remove Open Collective [#1220](https://github.com/icetee/remote-ftp/issues/1220)
 + Upgrade npm packages
++ Add more base keybinds [#1171](https://github.com/icetee/remote-ftp/issues/1171)
++ Upgrade SSH2 version [#1189](https://github.com/icetee/remote-ftp/issues/1189)
 
 ## Fixed
++ Fix [#1151](https://github.com/icetee/remote-ftp/issues/1151)
++ Fix directory "Copy name" function
++ Fix eta position
++ Fix [#1184](https://github.com/icetee/remote-ftp/issues/1184)
 + More accurate element search [#1213](https://github.com/icetee/remote-ftp/issues/1213)
 + Sometimes did not sync the root folder in the 'Sync local <- remote' command
 
