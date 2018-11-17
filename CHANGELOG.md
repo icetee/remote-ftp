@@ -2,6 +2,8 @@
 
 ## [Unreleased]
 
+## [2.2.1] - 2018-11-17
+
 ## Changed
 + Remove Open Collective [#1220](https://github.com/icetee/remote-ftp/issues/1220)
 + Upgrade npm packages
