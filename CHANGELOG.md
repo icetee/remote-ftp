@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [2.2.2] - 2018-11-20
+
+## Fixed
++ Add default @ui-size value [#1222](https://github.com/icetee/remote-ftp/issues/1222)
+
 ## [2.2.1] - 2018-11-17
 
 ## Changed
