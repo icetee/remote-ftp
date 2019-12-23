@@ -22,15 +22,15 @@
     }
   },
   "dependencies": {
-    "@icetee/ftp": "^1.0.3",
+    "@icetee/ftp": "^1.0.5",
     "atom-space-pen-views": "^2.2.0",
     "cson-parser": "^3.0.0",
     "event-kit": "^2.5.3",
-    "fs-plus": "^3.0.2",
+    "fs-plus": "^3.1.1",
     "ignore": "^4.0.6",
-    "ssh-config": "^1.0.1",
-    "ssh2": "^0.6.1",
-    "ssh2-streams": "^0.2.0",
+    "ssh-config": "^3.0.0",
+    "ssh2": "^0.8.7",
+    "ssh2-streams": "^0.4.8",
     "strip-json-comments": "^2.0.1"
   },
   "devDependencies": {
