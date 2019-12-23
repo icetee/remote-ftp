@@ -2,6 +2,15 @@
 
 ## [Unreleased]
 
+## [2.2.3] - 2019-12-23
+
+## Changed
++ Upgrade npm packages
+
+## Supported
+Supported `ed25519` RSA key [#1227](https://github.com/icetee/remote-ftp/issues/1227)
+No waiting for 266 or 250 transfer anymore [@icetee/node-ftp#f15a731](https://github.com/icetee/node-ftp/commit/f15a7310034768ad181675a3c55ebf5e347797f3)
+
 ## [2.2.2] - 2018-11-20
 
 ## Fixed
