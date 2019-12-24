@@ -2,6 +2,11 @@
 
 ## [Unreleased]
 
+## [2.2.4] - 2019-12-24
+
+## Fixed
++ Cannot read 'config' [#1316](https://github.com/icetee/remote-ftp/issues/1316)
+
 ## [2.2.3] - 2019-12-23
 
 ## Changed
