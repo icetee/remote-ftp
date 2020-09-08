@@ -31,6 +31,7 @@ There are some settings hidden in the package preferences!
 ![Screenshot of Settings](https://raw.githubusercontent.com/icetee/remote-ftp/master/screenshot-settings.png "Screenshot-settings")
 
 ## Configuration in project's `.ftpconfig` file
+Create configuration file in the user dirrectory `touch ~/.ftpconfig` and edit it
 
 **SFTP Configuration Options**
 
